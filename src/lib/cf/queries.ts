@@ -9,7 +9,8 @@ import { RANGES, type RangeKey, timeWindow } from "./range";
 export type Row = Record<string, any>;
 export type Section = { rows: Record<string, Row[]>; errors: string[] };
 
-const CACHE = { stale: 60, revalidate: 60, expire: 600 };
+// 60초마다 백그라운드로 새로 받고, 하루 동안은 옛 값을 먼저 보여 준다(빈 캐시 대기는 재시작 직후에만)
+const CACHE = { stale: 60, revalidate: 60, expire: 86400 };
 
 function lit(v: unknown): string {
   if (v === null || v === undefined) return "null";
@@ -24,7 +25,11 @@ function lit(v: unknown): string {
 
 type Part = { alias: string; ds: string; limit: number; filter: object; select: string; orderBy?: string };
 
-async function run(scope: "account" | "zone", tag: string, parts: Part[]): Promise<Section> {
+// 별칭을 한 질의에 많이 묶으면 Cloudflare가 차례로 처리해 느려진다(RUM 21개 묶음 4초, 2026-11-10 측정).
+// CHUNK개씩 나눠 동시에 보낸다. 한도는 별칭(노드) 수로 세므로 나눠도 쓰는 양은 같다.
+const CHUNK = 6;
+
+async function runOne(scope: "account" | "zone", tag: string, parts: Part[]): Promise<Section> {
   const node = scope === "account" ? "accounts(filter:{accountTag:$tag})" : "zones(filter:{zoneTag:$tag})";
   const body = parts
     .map((p) => `${p.alias}: ${p.ds}(limit:${p.limit}, filter:${lit(p.filter)}${p.orderBy ? `, orderBy:[${p.orderBy}]` : ""}){${p.select}}`)
@@ -34,6 +39,16 @@ async function run(scope: "account" | "zone", tag: string, parts: Part[]): Promi
   const rows: Record<string, Row[]> = {};
   for (const p of parts) rows[p.alias] = (root[p.alias] as Row[]) ?? [];
   return { rows, errors: r.errors };
+}
+
+async function run(scope: "account" | "zone", tag: string, parts: Part[]): Promise<Section> {
+  const chunks: Part[][] = [];
+  for (let i = 0; i < parts.length; i += CHUNK) chunks.push(parts.slice(i, i + CHUNK));
+  const results = await Promise.all(chunks.map((c) => runOne(scope, tag, c)));
+  return {
+    rows: Object.assign({}, ...results.map((r) => r.rows)),
+    errors: results.flatMap((r) => r.errors),
+  };
 }
 
 export async function zoneId(): Promise<string | null> {
