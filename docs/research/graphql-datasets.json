@@ -1,0 +1,1606 @@
+{
+ "account": [
+  {
+   "name": "MagicWANConnectorMetricsAdaptiveGroups",
+   "type": "AccountMagicWANConnectorMetricsAdaptiveGroups",
+   "desc": "Magic WAN Connector Metrics (deprecated)"
+  },
+  {
+   "name": "accessLoginRequestsAdaptiveGroups",
+   "type": "AccountAccessLoginRequestsAdaptiveGroups",
+   "desc": "Access login requests"
+  },
+  {
+   "name": "accountTag",
+   "type": "string",
+   "desc": ""
+  },
+  {
+   "name": "advancedDnsProtectionNetworkAnalyticsAdaptiveGroups",
+   "type": "AccountAdvancedDnsProtectionNetworkAnalyticsAdaptiveGroups",
+   "desc": "Network analytics data for Advanced DNS Protection"
+  },
+  {
+   "name": "advancedTcpProtectionNetworkAnalyticsAdaptiveGroups",
+   "type": "AccountAdvancedTcpProtectionNetworkAnalyticsAdaptiveGroups",
+   "desc": "Network analytics data for Advanced TCP Protection"
+  },
+  {
+   "name": "aegisIpUtilizationAdaptiveGroups",
+   "type": "AccountAegisIpUtilizationAdaptiveGroups",
+   "desc": "Beta. Aegis IP utilization metrics"
+  },
+  {
+   "name": "agentMemoryOperationsAdaptiveGroups",
+   "type": "AccountAgentMemoryOperationsAdaptiveGroups",
+   "desc": "Agent Memory operations with adaptive sampling"
+  },
+  {
+   "name": "agentModelInvocationsAdaptiveGroups",
+   "type": "AccountAgentModelInvocationsAdaptiveGroups",
+   "desc": "Agent model invocation usage with adaptive sampling"
+  },
+  {
+   "name": "aiGatewayCacheAdaptiveGroups",
+   "type": "AccountAiGatewayCacheAdaptiveGroups",
+   "desc": "AI Gateway Cache"
+  },
+  {
+   "name": "aiGatewayConversationAnalysesAdaptive",
+   "type": "AccountAiGatewayConversationAnalysesAdaptive",
+   "desc": "Individual analyzed AI Gateway conversations. This list is a sample: adaptive sampling means not every conversation is retained as a row, and counts extrapolate"
+  },
+  {
+   "name": "aiGatewayConversationAnalysesAdaptiveGroups",
+   "type": "AccountAiGatewayConversationAnalysesAdaptiveGroups",
+   "desc": "Analyzed AI Gateway conversations, aggregated with adaptive sampling. One underlying row per analysis of a conversation; a conversation active across several an"
+  },
+  {
+   "name": "aiGatewayConversationAnalysesStagingAdaptive",
+   "type": "AccountAiGatewayConversationAnalysesStagingAdaptive",
+   "desc": "Individual analyzed AI Gateway conversations with adaptive sampling (staging)"
+  },
+  {
+   "name": "aiGatewayConversationAnalysesStagingAdaptiveGroups",
+   "type": "AccountAiGatewayConversationAnalysesStagingAdaptiveGroups",
+   "desc": "Analyzed AI Gateway conversations with adaptive sampling (staging)"
+  },
+  {
+   "name": "aiGatewayErrorsAdaptiveGroups",
+   "type": "AccountAiGatewayErrorsAdaptiveGroups",
+   "desc": "AI Gateway Errors"
+  },
+  {
+   "name": "aiGatewayRequestsAdaptiveGroups",
+   "type": "AccountAiGatewayRequestsAdaptiveGroups",
+   "desc": "AI Gateway Requests"
+  },
+  {
+   "name": "aiGatewaySizeAdaptiveGroups",
+   "type": "AccountAiGatewaySizeAdaptiveGroups",
+   "desc": "AI Gateway Stored Rows"
+  },
+  {
+   "name": "aiGatewaySpendSessionsAdaptiveGroups",
+   "type": "AccountAiGatewaySpendSessionsAdaptiveGroups",
+   "desc": "AI Gateway Spend session-level facts with adaptive sampling"
+  },
+  {
+   "name": "aiGatewaySpendUserDailyAdaptiveGroups",
+   "type": "AccountAiGatewaySpendUserDailyAdaptiveGroups",
+   "desc": "AI Gateway Spend user daily facts with adaptive sampling"
+  },
+  {
+   "name": "aiInferenceAdaptive",
+   "type": "AccountAiInferenceAdaptive",
+   "desc": "AI Inference logs with adaptive sampling"
+  },
+  {
+   "name": "aiInferenceAdaptiveGroups",
+   "type": "AccountAiInferenceAdaptiveGroups",
+   "desc": "Aggregated AI Inference logs with adaptive sampling"
+  },
+  {
+   "name": "aiSearchAPIAdaptiveGroups",
+   "type": "AccountAiSearchAPIAdaptiveGroups",
+   "desc": "AI Search API Search Analytics"
+  },
+  {
+   "name": "aiSearchFulltextQueriesAdaptiveGroups",
+   "type": "AccountAiSearchFulltextQueriesAdaptiveGroups",
+   "desc": "Sample-weighted estimate of AI Search full-text queries. Logical operations are not deduplicated, so retries may be counted more than once."
+  },
+  {
+   "name": "aiSearchImageProcessingTokensAdaptiveGroups",
+   "type": "AccountAiSearchImageProcessingTokensAdaptiveGroups",
+   "desc": "Sample-weighted estimate of AI Search image processing tokens. Logical operations are not deduplicated, so retries may be counted more than once."
+  },
+  {
+   "name": "aiSearchIngestedItemsAdaptiveGroups",
+   "type": "AccountAiSearchIngestedItemsAdaptiveGroups",
+   "desc": "AI Search Ingested Items Analytics"
+  },
+  {
+   "name": "aiSearchIngestionTokensAdaptiveGroups",
+   "type": "AccountAiSearchIngestionTokensAdaptiveGroups",
+   "desc": "Sample-weighted estimate of AI Search ingestion tokens. Logical operations are not deduplicated, so retries may be counted more than once."
+  },
+  {
+   "name": "aiSearchMediaSecondsAdaptiveGroups",
+   "type": "AccountAiSearchMediaSecondsAdaptiveGroups",
+   "desc": "Sample-weighted estimate of AI Search media seconds (audio and video transcribed by new media jobs). Logical operations are not deduplicated, so retries may be "
+  },
+  {
+   "name": "aiSearchPublicEventsAdaptiveGroups",
+   "type": "AccountAiSearchPublicEventsAdaptiveGroups",
+   "desc": "AI Search public endpoint analytics: searches, result clicks and view-more interactions reported by the public search snippet"
+  },
+  {
+   "name": "aiSearchSemanticQueriesAdaptiveGroups",
+   "type": "AccountAiSearchSemanticQueriesAdaptiveGroups",
+   "desc": "Sample-weighted estimate of AI Search semantic queries. Logical operations are not deduplicated, so retries may be counted more than once."
+  },
+  {
+   "name": "aiSearchStorageAdaptiveGroups",
+   "type": "AccountAiSearchStorageAdaptiveGroups",
+   "desc": "Sample-weighted estimate of AI Search storage byte-hours from hourly per-instance byte observations. Observations are not deduplicated, so duplicate rows may be"
+  },
+  {
+   "name": "artifactsEventsAdaptiveGroups",
+   "type": "AccountArtifactsEventsAdaptiveGroups",
+   "desc": "Artifacts events with adaptive sampling"
+  },
+  {
+   "name": "artifactsStorageAdaptiveGroups",
+   "type": "AccountArtifactsStorageAdaptiveGroups",
+   "desc": "Artifacts repository storage snapshots with adaptive sampling"
+  },
+  {
+   "name": "auditLogsGroups",
+   "type": "AccountAuditLogsGroups",
+   "desc": "Audit log events grouped by account, time, actor, action, and resource dimensions."
+  },
+  {
+   "name": "autoRAGConfigAPIAdaptiveGroups",
+   "type": "AccountAutoRAGConfigAPIAdaptiveGroups",
+   "desc": "AutoRAG Config API Search Analytics"
+  },
+  {
+   "name": "autoRAGEngineAdaptiveGroups",
+   "type": "AccountAutoRAGEngineAdaptiveGroups",
+   "desc": "AutoRAG Engine Ingestion Analytics"
+  },
+  {
+   "name": "browserIsolationSessionsAdaptiveGroups",
+   "type": "AccountBrowserIsolationSessionsAdaptiveGroups",
+   "desc": "Aggregated count of Browser Isolation sessions"
+  },
+  {
+   "name": "browserIsolationUserActionsAdaptiveGroups",
+   "type": "AccountBrowserIsolationUserActionsAdaptiveGroups",
+   "desc": "Aggregated count of Browser Isolation User Actions matches"
+  },
+  {
+   "name": "browserRenderingApiAdaptive",
+   "type": "AccountBrowserRenderingApiAdaptive",
+   "desc": "Browser Run API events with adaptive sampling"
+  },
+  {
+   "name": "browserRenderingApiAdaptiveGroups",
+   "type": "AccountBrowserRenderingApiAdaptiveGroups",
+   "desc": "Aggregated Browser Run API events with adaptive sampling"
+  },
+  {
+   "name": "browserRenderingBindingSessionsAdaptiveGroups",
+   "type": "AccountBrowserRenderingBindingSessionsAdaptiveGroups",
+   "desc": "Aggregated Browser Run worker binding sessions with adaptive sampling"
+  },
+  {
+   "name": "browserRenderingBrowserTimeUsageAdaptiveGroups",
+   "type": "AccountBrowserRenderingBrowserTimeUsageAdaptiveGroups",
+   "desc": "Aggregated Browser Run and Browser Run REST API browser sessions with adaptive sampling"
+  },
+  {
+   "name": "browserRenderingEventsAdaptive",
+   "type": "AccountBrowserRenderingEventsAdaptive",
+   "desc": "Browser Run events with adaptive sampling"
+  },
+  {
+   "name": "browserRenderingEventsAdaptiveGroups",
+   "type": "AccountBrowserRenderingEventsAdaptiveGroups",
+   "desc": "Aggregated Browser Run events with adaptive sampling"
+  },
+  {
+   "name": "callsStatusAdaptive",
+   "type": "AccountCallsStatusAdaptive",
+   "desc": "(TESTING ONLY, NOT FOR PRODUCTION) Raw Calls events with adaptive sampling"
+  },
+  {
+   "name": "callsTurnUsageAdaptiveGroups",
+   "type": "AccountCallsTurnUsageAdaptiveGroups",
+   "desc": "Aggregated Calls TURN bandwidth usage with adaptive sampling\""
+  },
+  {
+   "name": "callsUsageAdaptiveGroups",
+   "type": "AccountCallsUsageAdaptiveGroups",
+   "desc": "Beta. Aggregated Calls SFU bandwidth usage with adaptive sampling"
+  },
+  {
+   "name": "cdnNetworkAnalyticsAdaptiveGroups",
+   "type": "AccountCdnNetworkAnalyticsAdaptiveGroups",
+   "desc": "Network analytics data for Cloudflare CDN traffic"
+  },
+  {
+   "name": "cf1AccessLogins1dGroups",
+   "type": "AccountCf1AccessLogins1dGroups",
+   "desc": "CF1 Access login analytics - 1 day rollup (up to 90d window, 365d back)"
+  },
+  {
+   "name": "cf1AccessLogins1hGroups",
+   "type": "AccountCf1AccessLogins1hGroups",
+   "desc": "CF1 Access login analytics - 1 hour rollup (up to 31d window, 62d back). Use cf1AccessLogins1dGroups for 10d+ ranges."
+  },
+  {
+   "name": "cf1AccessLoginsRawGroups",
+   "type": "AccountCf1AccessLoginsRawGroups",
+   "desc": "CF1 Access login analytics - raw data (max 3h window, up to 31d back). Supports unique user counts. Use cf1AccessLogins1hGroups for longer ranges."
+  },
+  {
+   "name": "cf1GatewayDns1dGroups",
+   "type": "AccountCf1GatewayDns1dGroups",
+   "desc": "CF1 Gateway DNS analytics - 1 day rollup"
+  },
+  {
+   "name": "cf1GatewayDns1hGroups",
+   "type": "AccountCf1GatewayDns1hGroups",
+   "desc": "CF1 Gateway DNS analytics - 1 hour rollup"
+  },
+  {
+   "name": "cf1GatewayDnsRawGroups",
+   "type": "AccountCf1GatewayDnsRawGroups",
+   "desc": "CF1 Gateway DNS analytics - raw data (max 3h query window). Use cf1GatewayDns1hGroups for longer ranges, or cf1GatewayDns1dGroups for 10d+"
+  },
+  {
+   "name": "cf1GatewayHttp1dGroups",
+   "type": "AccountCf1GatewayHttp1dGroups",
+   "desc": "CF1 Gateway HTTP analytics - 1 day rollup (up to 90d window, 365d back)"
+  },
+  {
+   "name": "cf1GatewayHttp1hGroups",
+   "type": "AccountCf1GatewayHttp1hGroups",
+   "desc": "CF1 Gateway HTTP analytics - 1 hour rollup (up to 31d window, 62d back)"
+  },
+  {
+   "name": "cf1GatewayHttpRawGroups",
+   "type": "AccountCf1GatewayHttpRawGroups",
+   "desc": "CF1 Gateway HTTP analytics - raw data (max 3h query window, 4d lookback). Use cf1GatewayHttp1hGroups for longer ranges, or cf1GatewayHttp1dGroups for 10d+"
+  },
+  {
+   "name": "cf1GatewayNetwork1dGroups",
+   "type": "AccountCf1GatewayNetwork1dGroups",
+   "desc": "CF1 Gateway Network analytics (L4 firewall events) - 1 day rollup (up to 90d window, 365d back)"
+  },
+  {
+   "name": "cf1GatewayNetwork1hGroups",
+   "type": "AccountCf1GatewayNetwork1hGroups",
+   "desc": "CF1 Gateway Network analytics (L4 firewall events) - 1 hour rollup (up to 31d window, 62d back)"
+  },
+  {
+   "name": "cf1GatewayNetworkRawGroups",
+   "type": "AccountCf1GatewayNetworkRawGroups",
+   "desc": "CF1 Gateway Network analytics (L4 firewall events) - raw data (max 3h query window, 4d lookback). Use cf1GatewayNetwork1hGroups for longer ranges, or cf1Gateway"
+  },
+  {
+   "name": "cf1GatewayNetworkSession1dGroups",
+   "type": "AccountCf1GatewayNetworkSession1dGroups",
+   "desc": "CF1 Gateway Network Session Log analytics - 1 day rollup (up to 90d window, 365d back)"
+  },
+  {
+   "name": "cf1GatewayNetworkSession1hGroups",
+   "type": "AccountCf1GatewayNetworkSession1hGroups",
+   "desc": "CF1 Gateway Network Session Log analytics - 1 hour rollup (up to 31d window, 62d back)"
+  },
+  {
+   "name": "cf1GatewayNetworkSessionRawGroups",
+   "type": "AccountCf1GatewayNetworkSessionRawGroups",
+   "desc": "CF1 Gateway Network Session Log (L4 sessions with bandwidth) - raw data (max 3h query window, 4d lookback). Use cf1GatewayNetworkSession1hGroups for longer rang"
+  },
+  {
+   "name": "cf1McpHost1dGroups",
+   "type": "AccountCf1McpHost1dGroups",
+   "desc": "CF1 MCP host analytics - 1 day rollup (up to 90d window, 365d back). Groups MCP URL activity by host and source country per day."
+  },
+  {
+   "name": "cloudchamberMetricsAdaptiveGroups",
+   "type": "AccountCloudchamberMetricsAdaptiveGroups",
+   "desc": "Metrics for Cloudchamber applications and deployments"
+  },
+  {
+   "name": "cloudflareTunnelsAnalyticsAdaptiveGroups",
+   "type": "AccountCloudflareTunnelsAnalyticsAdaptiveGroups",
+   "desc": "Cloudflare tunnel Device Analytics"
+  },
+  {
+   "name": "cloudforceOneDetectionsAdaptiveGroups",
+   "type": "AccountCloudforceOneDetectionsAdaptiveGroups",
+   "desc": "Cloudforce One detection events for Workers for Platforms scripts with adaptive sampling. Each row represents a single detection rule hit."
+  },
+  {
+   "name": "cloudforceOneDetectionsStagingAdaptiveGroups",
+   "type": "AccountCloudforceOneDetectionsStagingAdaptiveGroups",
+   "desc": "Cloudforce One detection events for Workers for Platforms scripts with adaptive sampling (staging). Each row represents a single detection rule hit."
+  },
+  {
+   "name": "containersMetricsAdaptiveGroups",
+   "type": "AccountContainersMetricsAdaptiveGroups",
+   "desc": "Metrics for Cloudchamber applications and deployments"
+  },
+  {
+   "name": "containersUsageAdaptiveGroups",
+   "type": "AccountContainersUsageAdaptiveGroups",
+   "desc": "Used to compute usage queries for billing estimates in Dash"
+  },
+  {
+   "name": "d1AnalyticsAdaptiveGroups",
+   "type": "AccountD1AnalyticsAdaptiveGroups",
+   "desc": "Aggregated D1 analytics with adaptive sampling"
+  },
+  {
+   "name": "d1QueriesAdaptiveGroups",
+   "type": "AccountD1QueriesAdaptiveGroups",
+   "desc": "D1 query metrics with adaptive sampling"
+  },
+  {
+   "name": "d1StorageAdaptiveGroups",
+   "type": "AccountD1StorageAdaptiveGroups",
+   "desc": "D1 storage with adaptive sampling"
+  },
+  {
+   "name": "dnsAnalyticsAdaptive",
+   "type": "AccountDnsAnalyticsAdaptive",
+   "desc": "Analytics data for DNS queries"
+  },
+  {
+   "name": "dnsAnalyticsAdaptiveGroups",
+   "type": "AccountDnsAnalyticsAdaptiveGroups",
+   "desc": "Analytics data for DNS queries"
+  },
+  {
+   "name": "dnsFirewallAnalyticsAdaptive",
+   "type": "AccountDnsFirewallAnalyticsAdaptive",
+   "desc": "Analytics data for DNS Firewall queries"
+  },
+  {
+   "name": "dnsFirewallAnalyticsAdaptiveGroups",
+   "type": "AccountDnsFirewallAnalyticsAdaptiveGroups",
+   "desc": "Analytics data for DNS Firewall queries"
+  },
+  {
+   "name": "dosdAttackAnalyticsGroups",
+   "type": "AccountDosdAttackAnalyticsGroups",
+   "desc": "Attack analytics metadata for attacks detected by dosd"
+  },
+  {
+   "name": "dosdNetworkAnalyticsAdaptiveGroups",
+   "type": "AccountDosdNetworkAnalyticsAdaptiveGroups",
+   "desc": "Network analytics data for dosd"
+  },
+  {
+   "name": "durableObjectsInvocationsAdaptiveGroups",
+   "type": "AccountDurableObjectsInvocationsAdaptiveGroups",
+   "desc": "Durable Objects invocations with adaptive sampling"
+  },
+  {
+   "name": "durableObjectsPeriodicGroups",
+   "type": "AccountDurableObjectsPeriodicGroups",
+   "desc": "Durable Objects periodic metrics"
+  },
+  {
+   "name": "durableObjectsSqlStorageGroups",
+   "type": "AccountDurableObjectsSqlStorageGroups",
+   "desc": "Storage metrics for SQL-backed Durable Objects."
+  },
+  {
+   "name": "durableObjectsStorageGroups",
+   "type": "AccountDurableObjectsStorageGroups",
+   "desc": "Durable Objects storage metrics"
+  },
+  {
+   "name": "durableObjectsSubrequestsAdaptiveGroups",
+   "type": "AccountDurableObjectsSubrequestsAdaptiveGroups",
+   "desc": "Durable Objects subrequests with adaptive sampling"
+  },
+  {
+   "name": "emailComplaintsAdaptiveGroups",
+   "type": "AccountEmailComplaintsAdaptiveGroups",
+   "desc": "Aggregated email complaints for all zones in an account, with adaptive sampling"
+  },
+  {
+   "name": "emailSendingAdaptive",
+   "type": "AccountEmailSendingAdaptive",
+   "desc": "Raw email sending logs for all zones in an account, with adaptive sampling"
+  },
+  {
+   "name": "emailSendingAdaptiveGroups",
+   "type": "AccountEmailSendingAdaptiveGroups",
+   "desc": "Aggregated email sending logs for all zones in an account, with adaptive sampling"
+  },
+  {
+   "name": "fbmAttackAnalyticsGroups",
+   "type": "AccountFbmAttackAnalyticsGroups",
+   "desc": "FBM analytics metadata for attacks detected by dosd"
+  },
+  {
+   "name": "firewallEventsAdaptive",
+   "type": "AccountFirewallEventsAdaptive",
+   "desc": "Raw Firewall events with adaptive sampling"
+  },
+  {
+   "name": "firewallEventsAdaptiveGroups",
+   "type": "AccountFirewallEventsAdaptiveGroups",
+   "desc": "Aggregated Firewall events with adaptive sampling"
+  },
+  {
+   "name": "flagshipFlagEvaluationsAdaptive",
+   "type": "AccountFlagshipFlagEvaluationsAdaptive",
+   "desc": "Flagship feature flag evaluations with adaptive sampling. Each row represents an individual flag evaluation."
+  },
+  {
+   "name": "flagshipFlagEvaluationsAdaptiveGroups",
+   "type": "AccountFlagshipFlagEvaluationsAdaptiveGroups",
+   "desc": "Aggregated Flagship feature flag evaluations with adaptive sampling. Use this to build dashboards over evaluation volume, latency, and error rates."
+  },
+  {
+   "name": "flowtrackdNetworkAnalyticsAdaptiveGroups",
+   "type": "AccountFlowtrackdNetworkAnalyticsAdaptiveGroups",
+   "desc": "Network analytics data for flowtrackd"
+  },
+  {
+   "name": "gatewayL4DownstreamSessionsAdaptiveGroups",
+   "type": "AccountGatewayL4DownstreamSessionsAdaptiveGroups",
+   "desc": "Aggregated metrics about downstream (client to edge) L4 Gateway Sessions. Metrics are reported on TCP or UDP session close"
+  },
+  {
+   "name": "gatewayL4SessionsAdaptiveGroups",
+   "type": "AccountGatewayL4SessionsAdaptiveGroups",
+   "desc": "BETA - Aggregate counts of Gateway L4 sessions with adaptive sampling"
+  },
+  {
+   "name": "gatewayL4UpstreamSessionsAdaptiveGroups",
+   "type": "AccountGatewayL4UpstreamSessionsAdaptiveGroups",
+   "desc": "Aggregated metrics about upstream (edge to client) L4 Gateway Sessions. Metrics are reported on TCP, QUIC or UDP session close"
+  },
+  {
+   "name": "gatewayL7RequestsAdaptiveGroups",
+   "type": "AccountGatewayL7RequestsAdaptiveGroups",
+   "desc": "BETA - Aggregate counts of Gateway L7 requests with adaptive sampling"
+  },
+  {
+   "name": "gatewayResolverByCategoryAdaptiveGroups",
+   "type": "AccountGatewayResolverByCategoryAdaptiveGroups",
+   "desc": "BETA - Aggregate counts of Gateway Resolver queries by category with adaptive sampling"
+  },
+  {
+   "name": "gatewayResolverByCustomResolverGroups",
+   "type": "AccountGatewayResolverByCustomResolverGroups",
+   "desc": "Stats on dns custom resolvers"
+  },
+  {
+   "name": "gatewayResolverByRuleExecutionPerformanceAdaptiveGroups",
+   "type": "AccountGatewayResolverByRuleExecutionPerformanceAdaptiveGroups",
+   "desc": "Total time spent on executing firewall rules at the edge"
+  },
+  {
+   "name": "gatewayResolverQueriesAdaptiveGroups",
+   "type": "AccountGatewayResolverQueriesAdaptiveGroups",
+   "desc": "BETA - Aggregate counts of Gateway Resolver queries with adaptive sampling"
+  },
+  {
+   "name": "httpRequests1dGroups",
+   "type": "AccountHttpRequests1dGroups",
+   "desc": "Daily rollups of request data"
+  },
+  {
+   "name": "httpRequests1hGroups",
+   "type": "AccountHttpRequests1hGroups",
+   "desc": "Hourly rollups of request data"
+  },
+  {
+   "name": "httpRequests1mGroups",
+   "type": "AccountHttpRequests1mGroups",
+   "desc": "Minutely rollups of request data"
+  },
+  {
+   "name": "httpRequestsAdaptive",
+   "type": "AccountHttpRequestsAdaptive",
+   "desc": "Raw HTTP requests with adaptive sampling"
+  },
+  {
+   "name": "httpRequestsAdaptiveGroups",
+   "type": "AccountHttpRequestsAdaptiveGroups",
+   "desc": "Aggregated HTTP requests data with adaptive sampling"
+  },
+  {
+   "name": "httpRequestsOverviewAdaptiveGroups",
+   "type": "AccountHttpRequestsOverviewAdaptiveGroups",
+   "desc": "A high-level summary of HTTP requests made by end users."
+  },
+  {
+   "name": "hyperdrivePoolSizesAdaptiveGroups",
+   "type": "AccountHyperdrivePoolSizesAdaptiveGroups",
+   "desc": "Hyperdrive connection pool size snapshots with adaptive sampling."
+  },
+  {
+   "name": "hyperdriveQueriesAdaptiveGroups",
+   "type": "AccountHyperdriveQueriesAdaptiveGroups",
+   "desc": "Hyperdrive query events with adaptive sampling."
+  },
+  {
+   "name": "imagesHostedRequestsAdaptiveGroups",
+   "type": "AccountImagesHostedRequestsAdaptiveGroups",
+   "desc": "Hosted Images delivery requests for an account, grouped by variant, format, response, cache status and location"
+  },
+  {
+   "name": "imagesHostedRequestsStagingAdaptiveGroups",
+   "type": "AccountImagesHostedRequestsStagingAdaptiveGroups",
+   "desc": "Hosted Images delivery requests for an account in staging, grouped by variant, format, response, cache status and location"
+  },
+  {
+   "name": "imagesRequestsAdaptiveGroups",
+   "type": "AccountImagesRequestsAdaptiveGroups",
+   "desc": "A high-level summary of Cloudflare Images served to end users."
+  },
+  {
+   "name": "imagesTransformationsAdaptiveGroups",
+   "type": "AccountImagesTransformationsAdaptiveGroups",
+   "desc": "Image transformations performed for an account, grouped by zone, Worker script, transformation and origin host. Counts only transformations the resizer actually"
+  },
+  {
+   "name": "imagesUniqueGroups",
+   "type": "AccountImagesUniqueGroups",
+   "desc": "Number of unique origin images over the requested period"
+  },
+  {
+   "name": "imagesUniqueTransformations",
+   "type": "AccountImagesUniqueTransformations",
+   "desc": "Image unique transfromations per day"
+  },
+  {
+   "name": "imagesUniqueTransformationsAccumulatedSinceStartOfMonth",
+   "type": "AccountImagesUniqueTransformationsAccumulatedSinceStartOfMonth",
+   "desc": "Image unique transformations accumulated since start of month"
+  },
+  {
+   "name": "k2ConsumeAdaptiveGroups",
+   "type": "AccountK2ConsumeAdaptiveGroups",
+   "desc": "Beta. Bytes delivered to K2 subscriptions"
+  },
+  {
+   "name": "k2ConsumeStagingAdaptiveGroups",
+   "type": "AccountK2ConsumeStagingAdaptiveGroups",
+   "desc": "Beta. Bytes delivered to K2 subscriptions (staging)"
+  },
+  {
+   "name": "k2ProduceAdaptiveGroups",
+   "type": "AccountK2ProduceAdaptiveGroups",
+   "desc": "Beta. Bytes produced to K2 streams"
+  },
+  {
+   "name": "k2ProduceStagingAdaptiveGroups",
+   "type": "AccountK2ProduceStagingAdaptiveGroups",
+   "desc": "Beta. Bytes produced to K2 streams (staging)"
+  },
+  {
+   "name": "k2StorageAdaptiveGroups",
+   "type": "AccountK2StorageAdaptiveGroups",
+   "desc": "Beta. Bytes stored in K2 streams, measured about every ten minutes"
+  },
+  {
+   "name": "k2StorageStagingAdaptiveGroups",
+   "type": "AccountK2StorageStagingAdaptiveGroups",
+   "desc": "Beta. Bytes stored in K2 streams, measured about every ten minutes (staging)"
+  },
+  {
+   "name": "k2SubscriptionLagAdaptiveGroups",
+   "type": "AccountK2SubscriptionLagAdaptiveGroups",
+   "desc": "Beta. Current lag of K2 subscriptions. Only records written within the queried range count, so query the stream's retention period up to now. Filter by streamId"
+  },
+  {
+   "name": "k2SubscriptionLagStagingAdaptiveGroups",
+   "type": "AccountK2SubscriptionLagStagingAdaptiveGroups",
+   "desc": "Beta. Current lag of K2 subscriptions (staging). Only records written within the queried range count, so query the stream's retention period up to now. Filter b"
+  },
+  {
+   "name": "kvOperationsAdaptiveGroups",
+   "type": "AccountKvOperationsAdaptiveGroups",
+   "desc": "KV operations data with adaptive sampling"
+  },
+  {
+   "name": "kvStorageAdaptiveGroups",
+   "type": "AccountKvStorageAdaptiveGroups",
+   "desc": "KV stored data with adaptive sampling"
+  },
+  {
+   "name": "lbHealthEntitiesGroups",
+   "type": "AccountLbHealthEntitiesGroups",
+   "desc": "Distinct pools and origins seen in LB health events, account-scoped"
+  },
+  {
+   "name": "lbHealthEvents",
+   "type": "AccountLbHealthEvents",
+   "desc": "Raw LB health state-change events with geographic scope support, account-scoped"
+  },
+  {
+   "name": "liveInputEventsAdaptive",
+   "type": "AccountLiveInputEventsAdaptive",
+   "desc": "Live input events with adaptive sampling"
+  },
+  {
+   "name": "liveInputEventsAdaptiveGroups",
+   "type": "AccountLiveInputEventsAdaptiveGroups",
+   "desc": "Aggregated live input events with adaptive sampling"
+  },
+  {
+   "name": "logExplorerIngestionAdaptiveGroups",
+   "type": "AccountLogExplorerIngestionAdaptiveGroups",
+   "desc": "Ingestion metrics for Log Explorer"
+  },
+  {
+   "name": "logpushHealthAdaptiveGroups",
+   "type": "AccountLogpushHealthAdaptiveGroups",
+   "desc": "Beta. Logpush job health metrics"
+  },
+  {
+   "name": "logpushTransformersAdaptiveGroups",
+   "type": "AccountLogpushTransformersAdaptiveGroups",
+   "desc": "Beta. Logpush transformer health metrics"
+  },
+  {
+   "name": "logpushTransformersSuccessfulUsageAdaptiveGroups",
+   "type": "AccountLogpushTransformersSuccessfulUsageAdaptiveGroups",
+   "desc": "Account-wide billable usage for successful invocations of Logpush transformers across all job scopes"
+  },
+  {
+   "name": "logpushUsageAdaptiveGroups",
+   "type": "AccountLogpushUsageAdaptiveGroups",
+   "desc": "Account-wide billable usage for successfully delivered customer-owned Logpush jobs"
+  },
+  {
+   "name": "magicEndpointHealthCheckAdaptiveGroups",
+   "type": "AccountMagicEndpointHealthCheckAdaptiveGroups",
+   "desc": "Magic Endpoint Healthcheck events with adaptive sampling."
+  },
+  {
+   "name": "magicFirewallNetworkAnalyticsAdaptiveGroups",
+   "type": "AccountMagicFirewallNetworkAnalyticsAdaptiveGroups",
+   "desc": "Network analytics data for Magic Firewall"
+  },
+  {
+   "name": "magicFirewallRateLimitNetworkAnalyticsAdaptiveGroups",
+   "type": "AccountMagicFirewallRateLimitNetworkAnalyticsAdaptiveGroups",
+   "desc": "Network analytics data for Magic Firewall Ratelimiting"
+  },
+  {
+   "name": "magicFirewallSamplesAdaptiveGroups",
+   "type": "AccountMagicFirewallSamplesAdaptiveGroups",
+   "desc": "Data to visualize traffic allowed and blocked by Magic Firewall rules"
+  },
+  {
+   "name": "magicIDPSNetworkAnalyticsAdaptiveGroups",
+   "type": "AccountMagicIDPSNetworkAnalyticsAdaptiveGroups",
+   "desc": "Network analytics data for Magic IDS"
+  },
+  {
+   "name": "magicTransitFragNeededErrorsAdaptiveGroups",
+   "type": "AccountMagicTransitFragNeededErrorsAdaptiveGroups",
+   "desc": "Network analytics data for Magic Transit ICMP frag needed traffic"
+  },
+  {
+   "name": "magicTransitNetworkAnalyticsAdaptiveGroups",
+   "type": "AccountMagicTransitNetworkAnalyticsAdaptiveGroups",
+   "desc": "Network analytics data for Magic Transit traffic"
+  },
+  {
+   "name": "magicTransitTunnelHealthCheckSLOsAdaptiveGroups",
+   "type": "AccountMagicTransitTunnelHealthCheckSLOsAdaptiveGroups",
+   "desc": "Magic Transit Tunnel Health Check SLO events with adaptive sampling."
+  },
+  {
+   "name": "magicTransitTunnelHealthChecksAdaptiveGroups",
+   "type": "AccountMagicTransitTunnelHealthChecksAdaptiveGroups",
+   "desc": "Beta. Magic Transit Health check results for customer GRE Tunnels with adaptive sampling (ABR)."
+  },
+  {
+   "name": "magicTransitTunnelTrafficAdaptiveGroups",
+   "type": "AccountMagicTransitTunnelTrafficAdaptiveGroups",
+   "desc": "Bandwidth usage metric of a Magic Transit tunnel."
+  },
+  {
+   "name": "markdownForAgentsAdaptiveGroups",
+   "type": "AccountMarkdownForAgentsAdaptiveGroups",
+   "desc": "Sampled in-process Markdown for Agents conversion attempts, including partial output and failures. Completion does not establish downstream delivery."
+  },
+  {
+   "name": "mconnTelemetryEventsAdaptiveGroups",
+   "type": "AccountMconnTelemetryEventsAdaptiveGroups",
+   "desc": "Aggregated Magic WAN Connector events with adaptive sampling"
+  },
+  {
+   "name": "mconnTelemetryEventsStagingAdaptiveGroups",
+   "type": "AccountMconnTelemetryEventsStagingAdaptiveGroups",
+   "desc": "Aggregated Magic WAN Connector events with adaptive sampling"
+  },
+  {
+   "name": "mconnTelemetrySnapshotDhcpLeasesAdaptiveGroups",
+   "type": "AccountMconnTelemetrySnapshotDhcpLeasesAdaptiveGroups",
+   "desc": "Aggregated Magic WAN Connector snapshots of DHCP leases with adaptive sampling"
+  },
+  {
+   "name": "mconnTelemetrySnapshotDhcpLeasesStagingAdaptiveGroups",
+   "type": "AccountMconnTelemetrySnapshotDhcpLeasesStagingAdaptiveGroups",
+   "desc": "Aggregated Magic WAN Connector snapshots of DHCP leases with adaptive sampling"
+  },
+  {
+   "name": "mconnTelemetrySnapshotDisksAdaptiveGroups",
+   "type": "AccountMconnTelemetrySnapshotDisksAdaptiveGroups",
+   "desc": "Aggregated Magic WAN Connector disk snapshots with adaptive sampling"
+  },
+  {
+   "name": "mconnTelemetrySnapshotDisksStagingAdaptiveGroups",
+   "type": "AccountMconnTelemetrySnapshotDisksStagingAdaptiveGroups",
+   "desc": "Aggregated Magic WAN Connector disk snapshots with adaptive sampling"
+  },
+  {
+   "name": "mconnTelemetrySnapshotInterfaceAddressesAdaptiveGroups",
+   "type": "AccountMconnTelemetrySnapshotInterfaceAddressesAdaptiveGroups",
+   "desc": "Aggregated Magic WAN Connector interface address snapshots with adaptive sampling"
+  },
+  {
+   "name": "mconnTelemetrySnapshotInterfaceAddressesStagingAdaptiveGroups",
+   "type": "AccountMconnTelemetrySnapshotInterfaceAddressesStagingAdaptiveGroups",
+   "desc": "Aggregated Magic WAN Connector interface address snapshots with adaptive sampling"
+  },
+  {
+   "name": "mconnTelemetrySnapshotInterfacesAdaptiveGroups",
+   "type": "AccountMconnTelemetrySnapshotInterfacesAdaptiveGroups",
+   "desc": "Aggregated Magic WAN Connector interface snapshots with adaptive sampling"
+  },
+  {
+   "name": "mconnTelemetrySnapshotInterfacesStagingAdaptiveGroups",
+   "type": "AccountMconnTelemetrySnapshotInterfacesStagingAdaptiveGroups",
+   "desc": "Aggregated Magic WAN Connector interface snapshots with adaptive sampling"
+  },
+  {
+   "name": "mconnTelemetrySnapshotMountsAdaptiveGroups",
+   "type": "AccountMconnTelemetrySnapshotMountsAdaptiveGroups",
+   "desc": "Aggregated Magic WAN Connector mount snapshots with adaptive sampling"
+  },
+  {
+   "name": "mconnTelemetrySnapshotMountsStagingAdaptiveGroups",
+   "type": "AccountMconnTelemetrySnapshotMountsStagingAdaptiveGroups",
+   "desc": "Aggregated Magic WAN Connector mount snapshots with adaptive sampling"
+  },
+  {
+   "name": "mconnTelemetrySnapshotNetdevsAdaptiveGroups",
+   "type": "AccountMconnTelemetrySnapshotNetdevsAdaptiveGroups",
+   "desc": "Aggregated Magic WAN Connector netdev snapshots with adaptive sampling"
+  },
+  {
+   "name": "mconnTelemetrySnapshotNetdevsStagingAdaptiveGroups",
+   "type": "AccountMconnTelemetrySnapshotNetdevsStagingAdaptiveGroups",
+   "desc": "Aggregated Magic WAN Connector netdev snapshots with adaptive sampling"
+  },
+  {
+   "name": "mconnTelemetrySnapshotThermalsAdaptiveGroups",
+   "type": "AccountMconnTelemetrySnapshotThermalsAdaptiveGroups",
+   "desc": "Aggregated Magic WAN Connector thermal snapshots with adaptive sampling"
+  },
+  {
+   "name": "mconnTelemetrySnapshotThermalsStagingAdaptiveGroups",
+   "type": "AccountMconnTelemetrySnapshotThermalsStagingAdaptiveGroups",
+   "desc": "Aggregated Magic WAN Connector thermal snapshots with adaptive sampling"
+  },
+  {
+   "name": "mconnTelemetrySnapshotTunnelsAdaptiveGroups",
+   "type": "AccountMconnTelemetrySnapshotTunnelsAdaptiveGroups",
+   "desc": "Aggregated Magic WAN Connector tunnel snapshots with adaptive sampling"
+  },
+  {
+   "name": "mconnTelemetrySnapshotTunnelsStagingAdaptiveGroups",
+   "type": "AccountMconnTelemetrySnapshotTunnelsStagingAdaptiveGroups",
+   "desc": "Aggregated Magic WAN Connector tunnel snapshots with adaptive sampling"
+  },
+  {
+   "name": "mconnTelemetrySnapshotsAdaptiveGroups",
+   "type": "AccountMconnTelemetrySnapshotsAdaptiveGroups",
+   "desc": "Aggregated Magic WAN Connector system snapshots with adaptive sampling"
+  },
+  {
+   "name": "mconnTelemetrySnapshotsStagingAdaptiveGroups",
+   "type": "AccountMconnTelemetrySnapshotsStagingAdaptiveGroups",
+   "desc": "Aggregated Magic WAN Connector system snapshots with adaptive sampling"
+  },
+  {
+   "name": "mediaUniqueTransformations",
+   "type": "AccountMediaUniqueTransformations",
+   "desc": "Media unique transfromations per day"
+  },
+  {
+   "name": "mediaUniqueTransformationsAccumulatedSinceStartOfMonth",
+   "type": "AccountMediaUniqueTransformationsAccumulatedSinceStartOfMonth",
+   "desc": "Media unique transformations accumulated since start of month"
+  },
+  {
+   "name": "mnmAWSVPCFlowDataAdaptiveGroups",
+   "type": "AccountMnmAWSVPCFlowDataAdaptiveGroups",
+   "desc": "AWS VPC Flow data collected through Magic Network Monitoring"
+  },
+  {
+   "name": "mnmFlowDataAdaptiveGroups",
+   "type": "AccountMnmFlowDataAdaptiveGroups",
+   "desc": "Flow data collected through Magic Network Monitoring"
+  },
+  {
+   "name": "monetizationGatewayAdaptiveGroups",
+   "type": "AccountMonetizationGatewayAdaptiveGroups",
+   "desc": "Monetization Gateway payment outcomes with adaptive sampling"
+  },
+  {
+   "name": "nelReportsAdaptiveGroups",
+   "type": "AccountNelReportsAdaptiveGroups",
+   "desc": "Data to visualize network error logs"
+  },
+  {
+   "name": "networkQualityUsageAdaptiveGroups",
+   "type": "AccountNetworkQualityUsageAdaptiveGroups",
+   "desc": "Beta. Network Quality API usage from authorized client requests (i.e. requests carrying an authorization token issued on behalf of the account), with adaptive s"
+  },
+  {
+   "name": "ohttpMetricsAdaptive",
+   "type": "AccountOhttpMetricsAdaptive",
+   "desc": "oHTTP request metrics with adaptive sampling"
+  },
+  {
+   "name": "ohttpMetricsAdaptiveGroups",
+   "type": "AccountOhttpMetricsAdaptiveGroups",
+   "desc": "Aggregated oHTTP request metrics with adaptive sampling"
+  },
+  {
+   "name": "ohttpRelayEgressConnMetricsAdaptiveGroups",
+   "type": "AccountOhttpRelayEgressConnMetricsAdaptiveGroups",
+   "desc": "Aggregated OHTTP relay egress (relay-to-gateway) connection metrics with adaptive sampling"
+  },
+  {
+   "name": "ohttpRelayIngressConnMetricsAdaptiveGroups",
+   "type": "AccountOhttpRelayIngressConnMetricsAdaptiveGroups",
+   "desc": "Aggregated OHTTP relay ingress (client-to-relay) connection metrics with adaptive sampling"
+  },
+  {
+   "name": "ohttpRelayRequestMetricsAdaptiveGroups",
+   "type": "AccountOhttpRelayRequestMetricsAdaptiveGroups",
+   "desc": "Aggregated OHTTP relay request metrics with adaptive sampling"
+  },
+  {
+   "name": "pageShieldReportsAdaptiveGroups",
+   "type": "AccountPageShieldReportsAdaptiveGroups",
+   "desc": "Page Shield CSP reports"
+  },
+  {
+   "name": "pagesFunctionsInvocationsAdaptiveGroups",
+   "type": "AccountPagesFunctionsInvocationsAdaptiveGroups",
+   "desc": "Pages Functions invocations with adaptive sampling"
+  },
+  {
+   "name": "pipelinesDeliveryAdaptiveGroups",
+   "type": "AccountPipelinesDeliveryAdaptiveGroups",
+   "desc": "Beta. Data delivered via Workers Pipelines"
+  },
+  {
+   "name": "pipelinesIngestionAdaptiveGroups",
+   "type": "AccountPipelinesIngestionAdaptiveGroups",
+   "desc": "Beta. Data ingested via Workers Pipelines"
+  },
+  {
+   "name": "pipelinesOperatorAdaptiveGroups",
+   "type": "AccountPipelinesOperatorAdaptiveGroups",
+   "desc": "Aggregated Pipelines source metrics with adaptive sampling"
+  },
+  {
+   "name": "pipelinesOperatorStagingAdaptiveGroups",
+   "type": "AccountPipelinesOperatorStagingAdaptiveGroups",
+   "desc": "Aggregated Pipelines source metrics with adaptive sampling"
+  },
+  {
+   "name": "pipelinesSinkAdaptiveGroups",
+   "type": "AccountPipelinesSinkAdaptiveGroups",
+   "desc": "Aggregated Pipelines sink metrics with adaptive sampling"
+  },
+  {
+   "name": "pipelinesSinkStagingAdaptiveGroups",
+   "type": "AccountPipelinesSinkStagingAdaptiveGroups",
+   "desc": "Aggregated Pipelines sink metrics with adaptive sampling"
+  },
+  {
+   "name": "pipelinesUserErrorsAdaptive",
+   "type": "AccountPipelinesUserErrorsAdaptive",
+   "desc": "Raw user errors from Workers Pipelines"
+  },
+  {
+   "name": "pipelinesUserErrorsAdaptiveGroups",
+   "type": "AccountPipelinesUserErrorsAdaptiveGroups",
+   "desc": "User errors from Workers Pipelines"
+  },
+  {
+   "name": "pipelinesUserErrorsStagingAdaptive",
+   "type": "AccountPipelinesUserErrorsStagingAdaptive",
+   "desc": "Raw user errors from Workers Pipelines (staging)"
+  },
+  {
+   "name": "pipelinesUserErrorsStagingAdaptiveGroups",
+   "type": "AccountPipelinesUserErrorsStagingAdaptiveGroups",
+   "desc": "User errors from Workers Pipelines (staging)"
+  },
+  {
+   "name": "precursorEventsAdaptiveGroups",
+   "type": "AccountPrecursorEventsAdaptiveGroups",
+   "desc": "Beta. Cloudflare Precursor aggregated validation events with adaptive sampling"
+  },
+  {
+   "name": "precursorSessionsAdaptiveGroups",
+   "type": "AccountPrecursorSessionsAdaptiveGroups",
+   "desc": "Beta. Cloudflare Precursor session-level aggregates derived from sampled validation events"
+  },
+  {
+   "name": "privacyProxyAuthMetricsAdaptiveGroups",
+   "type": "AccountPrivacyProxyAuthMetricsAdaptiveGroups",
+   "desc": "Aggregated Privacy Proxy authentication metrics with adaptive sampling"
+  },
+  {
+   "name": "privacyProxyEgressConnMetricsAdaptiveGroups",
+   "type": "AccountPrivacyProxyEgressConnMetricsAdaptiveGroups",
+   "desc": "Aggregated Privacy Proxy egress (proxy-to-origin) connection metrics with adaptive sampling"
+  },
+  {
+   "name": "privacyProxyIngressConnMetricsAdaptiveGroups",
+   "type": "AccountPrivacyProxyIngressConnMetricsAdaptiveGroups",
+   "desc": "Aggregated Privacy Proxy ingress (client-to-proxy) connection metrics with adaptive sampling"
+  },
+  {
+   "name": "privacyProxyRequestMetricsAdaptiveGroups",
+   "type": "AccountPrivacyProxyRequestMetricsAdaptiveGroups",
+   "desc": "Aggregated Privacy Proxy request metrics with adaptive sampling"
+  },
+  {
+   "name": "programmableFlowProtectionNetworkAnalyticsAdaptiveGroups",
+   "type": "AccountProgrammableFlowProtectionNetworkAnalyticsAdaptiveGroups",
+   "desc": "Network analytics data for Programmable Flow Protection"
+  },
+  {
+   "name": "queueBacklogAdaptiveGroups",
+   "type": "AccountQueueBacklogAdaptiveGroups",
+   "desc": "Beta. Queue backlog data with adaptive sampling. Queues that are not being written to, or read from, will not return data, even if they have a backlog."
+  },
+  {
+   "name": "queueConsumerMetricsAdaptiveGroups",
+   "type": "AccountQueueConsumerMetricsAdaptiveGroups",
+   "desc": "Beta. Queue consumer metrics with adaptive sampling. Inactive queues will not return data."
+  },
+  {
+   "name": "queueDelayedBacklogAdaptiveGroups",
+   "type": "AccountQueueDelayedBacklogAdaptiveGroups",
+   "desc": "Beta. Queue delayed backlog data with adaptive sampling. Queues that are not being written to, or read from, will not return data, even if they have a backlog."
+  },
+  {
+   "name": "queueMessageOperationsAdaptiveGroups",
+   "type": "AccountQueueMessageOperationsAdaptiveGroups",
+   "desc": "Beta. Queue message operation data with adaptive sampling"
+  },
+  {
+   "name": "r2BandwidthUsageAdaptiveGroups",
+   "type": "AccountR2BandwidthUsageAdaptiveGroups",
+   "desc": "Estimated R2 transfer usage with adaptive sampling. Transfers smaller than 100 KiB are excluded."
+  },
+  {
+   "name": "r2CatalogDataOperationsAdaptiveGroups",
+   "type": "AccountR2CatalogDataOperationsAdaptiveGroups",
+   "desc": "R2 Data Catalog data plane operations (Iceberg REST API requests) with adaptive sampling"
+  },
+  {
+   "name": "r2CatalogTableMaintenanceAdaptiveGroups",
+   "type": "AccountR2CatalogTableMaintenanceAdaptiveGroups",
+   "desc": "R2 Data Catalog table maintenance job metrics (compaction, snapshot expiration) with adaptive sampling"
+  },
+  {
+   "name": "r2OperationsAdaptiveGroups",
+   "type": "AccountR2OperationsAdaptiveGroups",
+   "desc": "Beta. R2 operations with adaptive sampling"
+  },
+  {
+   "name": "r2StorageAdaptiveGroups",
+   "type": "AccountR2StorageAdaptiveGroups",
+   "desc": "Beta. R2 storage with adaptive sampling"
+  },
+  {
+   "name": "r2sqlOperationsAdaptiveGroups",
+   "type": "AccountR2sqlOperationsAdaptiveGroups",
+   "desc": "R2 SQL requests with adaptive sampling"
+  },
+  {
+   "name": "realtimeKitUsageAdaptiveGroups",
+   "type": "AccountRealtimeKitUsageAdaptiveGroups",
+   "desc": "RealtimeKit usage metrics"
+  },
+  {
+   "name": "rumPageloadEventsAdaptiveGroups",
+   "type": "AccountRumPageloadEventsAdaptiveGroups",
+   "desc": "Beta. Aggregated RUM pageload event metrics with adaptive sampling"
+  },
+  {
+   "name": "rumPerformanceEventsAdaptiveGroups",
+   "type": "AccountRumPerformanceEventsAdaptiveGroups",
+   "desc": "Beta. Aggregated RUM performance event metrics with adaptive sampling"
+  },
+  {
+   "name": "rumWebVitalsEventsAdaptive",
+   "type": "AccountRumWebVitalsEventsAdaptive",
+   "desc": "Beta. RUM Web Vitals event metrics with adaptive sampling"
+  },
+  {
+   "name": "rumWebVitalsEventsAdaptiveGroups",
+   "type": "AccountRumWebVitalsEventsAdaptiveGroups",
+   "desc": "Beta. Aggregated RUM Web Vitals event metrics with adaptive sampling"
+  },
+  {
+   "name": "settings",
+   "type": "AccountSettings",
+   "desc": ""
+  },
+  {
+   "name": "shadowIt1hGroups",
+   "type": "AccountShadowIt1hGroups",
+   "desc": "Shadow IT analytics - applications seen in Gateway HTTP traffic, 1 hour rollup (up to 90d window, 365d back)"
+  },
+  {
+   "name": "sinkholeRequestLogsAdaptive",
+   "type": "AccountSinkholeRequestLogsAdaptive",
+   "desc": "Sinkhole Request Logs"
+  },
+  {
+   "name": "sinkholeRequestLogsAdaptiveGroups",
+   "type": "AccountSinkholeRequestLogsAdaptiveGroups",
+   "desc": "Sinkhole Request Logs"
+  },
+  {
+   "name": "sippyOperationsAdaptiveGroups",
+   "type": "AccountSippyOperationsAdaptiveGroups",
+   "desc": "Sippy operations with adaptive sampling"
+  },
+  {
+   "name": "spectrumNetworkAnalyticsAdaptiveGroups",
+   "type": "AccountSpectrumNetworkAnalyticsAdaptiveGroups",
+   "desc": "Network analytics data for Spectrum traffic"
+  },
+  {
+   "name": "storageTraces",
+   "type": "AccountStorageTraces",
+   "desc": "Storage Tracing Information"
+  },
+  {
+   "name": "streamCMCDAdaptiveGroups",
+   "type": "AccountStreamCMCDAdaptiveGroups",
+   "desc": "Stream CMCD data"
+  },
+  {
+   "name": "streamMinutesViewedAdaptiveGroups",
+   "type": "AccountStreamMinutesViewedAdaptiveGroups",
+   "desc": "A high-level summary of Cloudflare Stream minutes viewed."
+  },
+  {
+   "name": "streamWHEPPlaybackMetricsAdaptiveGroups",
+   "type": "AccountStreamWHEPPlaybackMetricsAdaptiveGroups",
+   "desc": "Aggregated WHEP playback metrics for Cloudflare Stream"
+  },
+  {
+   "name": "streamWHIPBroadcastMetricsAdaptive",
+   "type": "AccountStreamWHIPBroadcastMetricsAdaptive",
+   "desc": "WHIP broadcast metrics for Cloudflare Stream."
+  },
+  {
+   "name": "streamWHIPBroadcastMetricsAdaptiveGroups",
+   "type": "AccountStreamWHIPBroadcastMetricsAdaptiveGroups",
+   "desc": "Aggregated WHIP broadcast metrics for Cloudflare Stream"
+  },
+  {
+   "name": "toMarkdownConversionAdaptive",
+   "type": "AccountToMarkdownConversionAdaptive",
+   "desc": "Markdown Conversion Metrics"
+  },
+  {
+   "name": "toMarkdownConversionAdaptiveGroups",
+   "type": "AccountToMarkdownConversionAdaptiveGroups",
+   "desc": "Markdown Conversion Metrics"
+  },
+  {
+   "name": "turnstileAdaptiveGroups",
+   "type": "AccountTurnstileAdaptiveGroups",
+   "desc": "Beta. Cloudflare Turnstile aggregated events with adaptive sampling"
+  },
+  {
+   "name": "vectorizeQueriesAdaptiveGroups",
+   "type": "AccountVectorizeQueriesAdaptiveGroups",
+   "desc": "Beta. Vectorize usage with adaptive sampling"
+  },
+  {
+   "name": "vectorizeStorageAdaptiveGroups",
+   "type": "AccountVectorizeStorageAdaptiveGroups",
+   "desc": "Beta. Vectorize storage with adaptive sampling"
+  },
+  {
+   "name": "vectorizeV2OperationsAdaptiveGroups",
+   "type": "AccountVectorizeV2OperationsAdaptiveGroups",
+   "desc": "Vectorize operations with adaptive sampling"
+  },
+  {
+   "name": "vectorizeV2QueriesAdaptiveGroups",
+   "type": "AccountVectorizeV2QueriesAdaptiveGroups",
+   "desc": "Vectorize queries with adaptive sampling"
+  },
+  {
+   "name": "vectorizeV2StorageAdaptiveGroups",
+   "type": "AccountVectorizeV2StorageAdaptiveGroups",
+   "desc": "Vectorize storage with adaptive sampling"
+  },
+  {
+   "name": "vectorizeV2WritesAdaptiveGroups",
+   "type": "AccountVectorizeV2WritesAdaptiveGroups",
+   "desc": "Vectorize writes with adaptive sampling"
+  },
+  {
+   "name": "videoBufferEventsAdaptiveGroups",
+   "type": "AccountVideoBufferEventsAdaptiveGroups",
+   "desc": "Beta. Aggregated video streaming buffer event metrics with adaptive sampling"
+  },
+  {
+   "name": "videoPlaybackEventsAdaptiveGroups",
+   "type": "AccountVideoPlaybackEventsAdaptiveGroups",
+   "desc": "Beta. Aggregated video streaming playback event metrics with adaptive sampling"
+  },
+  {
+   "name": "videoQualityEventsAdaptiveGroups",
+   "type": "AccountVideoQualityEventsAdaptiveGroups",
+   "desc": "Beta. Aggregated video streaming quality change event metrics with adaptive sampling"
+  },
+  {
+   "name": "warpDeviceAdaptiveGroups",
+   "type": "AccountWarpDeviceAdaptiveGroups",
+   "desc": "Beta. Warp device health events with adaptive sampling"
+  },
+  {
+   "name": "webSearchRequestsAdaptiveGroups",
+   "type": "AccountWebSearchRequestsAdaptiveGroups",
+   "desc": "Web Search Requests Analytics"
+  },
+  {
+   "name": "workerPlacementAdaptiveGroups",
+   "type": "AccountWorkerPlacementAdaptiveGroups",
+   "desc": "Worker placement metrics"
+  },
+  {
+   "name": "workersAnalyticsEngineAdaptiveGroups",
+   "type": "AccountWorkersAnalyticsEngineAdaptiveGroups",
+   "desc": "Beta. Custom Events with adaptive sampling"
+  },
+  {
+   "name": "workersAssetsRequestsAdaptiveGroups",
+   "type": "AccountWorkersAssetsRequestsAdaptiveGroups",
+   "desc": "Workers Assets requests with adaptive sampling"
+  },
+  {
+   "name": "workersBuildsBuildMinutesAdaptiveGroups",
+   "type": "AccountWorkersBuildsBuildMinutesAdaptiveGroups",
+   "desc": "Workers Builds build minute overview data with adaptive sampling"
+  },
+  {
+   "name": "workersCacheRequestsAdaptiveGroups",
+   "type": "AccountWorkersCacheRequestsAdaptiveGroups",
+   "desc": "Beta. Cache-enabled Workers request events with adaptive sampling"
+  },
+  {
+   "name": "workersInvocationsAdaptive",
+   "type": "AccountWorkersInvocationsAdaptive",
+   "desc": "Beta. Workers invocations with adaptive sampling"
+  },
+  {
+   "name": "workersInvocationsByOwnerAndScriptGroups",
+   "type": "AccountWorkersInvocationsByOwnerAndScriptGroups",
+   "desc": "Workers dynamic worker invocations. Used for exact distinct dynamic worker counts."
+  },
+  {
+   "name": "workersInvocationsScheduled",
+   "type": "AccountWorkersInvocationsScheduled",
+   "desc": "Workers scheduled invocations"
+  },
+  {
+   "name": "workersOverviewDataAdaptiveGroups",
+   "type": "AccountWorkersOverviewDataAdaptiveGroups",
+   "desc": "Beta. Workers account overview invocation data with adaptive sampling"
+  },
+  {
+   "name": "workersOverviewRequestsAdaptiveGroups",
+   "type": "AccountWorkersOverviewRequestsAdaptiveGroups",
+   "desc": "Beta. Workers account overview invocation count with adaptive sampling"
+  },
+  {
+   "name": "workersSubrequestsAdaptiveGroups",
+   "type": "AccountWorkersSubrequestsAdaptiveGroups",
+   "desc": "Beta. Workers subrequests with adaptive sampling"
+  },
+  {
+   "name": "workersVpcConnectionAdaptiveGroups",
+   "type": "AccountWorkersVpcConnectionAdaptiveGroups",
+   "desc": "Workers VPC connections with adaptive sampling."
+  },
+  {
+   "name": "workflowsAdaptive",
+   "type": "AccountWorkflowsAdaptive",
+   "desc": "Workflows analytics"
+  },
+  {
+   "name": "workflowsAdaptiveGroups",
+   "type": "AccountWorkflowsAdaptiveGroups",
+   "desc": "Workflows analytics"
+  },
+  {
+   "name": "workflowsBlockedReasonAdaptiveGroups",
+   "type": "AccountWorkflowsBlockedReasonAdaptiveGroups",
+   "desc": "Workflow gatekeeper block reason metrics with adaptive sampling. Each sample represents instances that were blocked by the gatekeeper, grouped by the reason for"
+  },
+  {
+   "name": "workflowsQueueDepthAdaptiveGroups",
+   "type": "AccountWorkflowsQueueDepthAdaptiveGroups",
+   "desc": "Workflow queue depth gauge metrics with adaptive sampling. Each sample represents a snapshot of the number of instances waiting in the gatekeeper queue for a wo"
+  },
+  {
+   "name": "workflowsQueueWaitAdaptiveGroups",
+   "type": "AccountWorkflowsQueueWaitAdaptiveGroups",
+   "desc": "Workflow queue wait time metrics with adaptive sampling. Each sample represents the time a workflow instance spent waiting in the gatekeeper queue before being "
+  },
+  {
+   "name": "zarazTrackAdaptiveGroups",
+   "type": "AccountZarazTrackAdaptiveGroups",
+   "desc": "Zaraz Track Analytics - counts zaraz.track calls"
+  },
+  {
+   "name": "zarazTriggersAdaptiveGroups",
+   "type": "AccountZarazTriggersAdaptiveGroups",
+   "desc": "Zaraz Triggers Analytics (a trigger is a set of rules that can trigger a zaraz action)"
+  },
+  {
+   "name": "zeroTrustPrivateNetworkDiscoveryGroups",
+   "type": "AccountZeroTrustPrivateNetworkDiscoveryGroups",
+   "desc": "Beta - Unique origins, applications, and users discovered for Zero Trust private networks"
+  },
+  {
+   "name": "zones",
+   "type": "zone",
+   "desc": ""
+  }
+ ],
+ "zone": [
+  {
+   "name": "accountAbuseProtectionAdaptiveGroups",
+   "type": "ZoneAccountAbuseProtectionAdaptiveGroups",
+   "desc": "Hourly Account Abuse Protection aggregates."
+  },
+  {
+   "name": "apiGatewayGraphqlQueryAnalyticsGroups",
+   "type": "ZoneApiGatewayGraphqlQueryAnalyticsGroups",
+   "desc": "GraphQL query attributes and trends"
+  },
+  {
+   "name": "apiGatewayMatchedSessionIDsAdaptiveGroups",
+   "type": "ZoneApiGatewayMatchedSessionIDsAdaptiveGroups",
+   "desc": "Beta. Aggregated count of Session Identifier matches"
+  },
+  {
+   "name": "apiGatewayMatchedSessionIDsPerEndpointAdaptiveGroups",
+   "type": "ZoneApiGatewayMatchedSessionIDsPerEndpointAdaptiveGroups",
+   "desc": "Beta. Aggregated count of Session Identifier matches per endpoint"
+  },
+  {
+   "name": "apiGatewayMatchedSessionIDsPerEndpointFlattenedAdaptiveGroups",
+   "type": "ZoneApiGatewayMatchedSessionIDsPerEndpointFlattenedAdaptiveGroups",
+   "desc": "Beta. Aggregated count of Session Identifier matches"
+  },
+  {
+   "name": "apiRequestSequencesGroups",
+   "type": "ZoneApiRequestSequencesGroups",
+   "desc": "Sequences of API endpoint operations. Sequences are learned by grouping requests by AuthID. Correlation scores are estimated over a 24 hour window and are curre"
+  },
+  {
+   "name": "cacheReserveOperationsAdaptiveGroups",
+   "type": "ZoneCacheReserveOperationsAdaptiveGroups",
+   "desc": "Beta. Cache Reserve operations with adaptive sampling"
+  },
+  {
+   "name": "cacheReserveRequestsAdaptiveGroups",
+   "type": "ZoneCacheReserveRequestsAdaptiveGroups",
+   "desc": "Cache Reserve HTTP requests data with adaptive sampling"
+  },
+  {
+   "name": "cacheReserveStorageAdaptiveGroups",
+   "type": "ZoneCacheReserveStorageAdaptiveGroups",
+   "desc": "Beta. Cache Reserve storage with adaptive sampling"
+  },
+  {
+   "name": "dmarcReportsAdaptive",
+   "type": "ZoneDmarcReportsAdaptive",
+   "desc": "Dmarc report records with adaptive sampling"
+  },
+  {
+   "name": "dmarcReportsSourcesAdaptiveGroups",
+   "type": "ZoneDmarcReportsSourcesAdaptiveGroups",
+   "desc": "Aggregated dmarc reports by sources logs with adaptive sampling"
+  },
+  {
+   "name": "dnsAnalyticsAdaptive",
+   "type": "ZoneDnsAnalyticsAdaptive",
+   "desc": "Analytics data for DNS queries"
+  },
+  {
+   "name": "dnsAnalyticsAdaptiveGroups",
+   "type": "ZoneDnsAnalyticsAdaptiveGroups",
+   "desc": "Analytics data for DNS queries"
+  },
+  {
+   "name": "emailComplaintsAdaptiveGroups",
+   "type": "ZoneEmailComplaintsAdaptiveGroups",
+   "desc": "Aggregated email complaints with adaptive sampling"
+  },
+  {
+   "name": "emailRoutingAdaptive",
+   "type": "ZoneEmailRoutingAdaptive",
+   "desc": "Beta. Raw email routing logs with adaptive sampling"
+  },
+  {
+   "name": "emailRoutingAdaptiveGroups",
+   "type": "ZoneEmailRoutingAdaptiveGroups",
+   "desc": "Beta. Aggregated email routing logs with adaptive sampling"
+  },
+  {
+   "name": "emailSendingAdaptive",
+   "type": "ZoneEmailSendingAdaptive",
+   "desc": "Raw email sending logs with adaptive sampling"
+  },
+  {
+   "name": "emailSendingAdaptiveGroups",
+   "type": "ZoneEmailSendingAdaptiveGroups",
+   "desc": "Aggregated email sending logs with adaptive sampling"
+  },
+  {
+   "name": "firewallEventsAdaptive",
+   "type": "ZoneFirewallEventsAdaptive",
+   "desc": "Raw Firewall events with adaptive sampling"
+  },
+  {
+   "name": "firewallEventsAdaptiveByTimeGroups",
+   "type": "ZoneFirewallEventsAdaptiveByTimeGroups",
+   "desc": "Aggregated Firewall events with adaptive sampling grouped by time"
+  },
+  {
+   "name": "firewallEventsAdaptiveGroups",
+   "type": "ZoneFirewallEventsAdaptiveGroups",
+   "desc": "Aggregated Firewall events with adaptive sampling"
+  },
+  {
+   "name": "healthCheckEventsAdaptive",
+   "type": "ZoneHealthCheckEventsAdaptive",
+   "desc": "Raw Health Check events with adaptive sampling"
+  },
+  {
+   "name": "healthCheckEventsAdaptiveGroups",
+   "type": "ZoneHealthCheckEventsAdaptiveGroups",
+   "desc": "Aggregated Health Check events with adaptive sampling"
+  },
+  {
+   "name": "httpRequests1dByColoGroups",
+   "type": "ZoneHttpRequests1dByColoGroups",
+   "desc": "Daily rollups of request data by colo"
+  },
+  {
+   "name": "httpRequests1dGroups",
+   "type": "ZoneHttpRequests1dGroups",
+   "desc": "Daily rollups of request data"
+  },
+  {
+   "name": "httpRequests1hGroups",
+   "type": "ZoneHttpRequests1hGroups",
+   "desc": "Hourly rollups of request data"
+  },
+  {
+   "name": "httpRequests1mByColoGroups",
+   "type": "ZoneHttpRequests1mByColoGroups",
+   "desc": "Minutely rollups of request data by colo"
+  },
+  {
+   "name": "httpRequests1mGroups",
+   "type": "ZoneHttpRequests1mGroups",
+   "desc": "Minutely rollups of request data"
+  },
+  {
+   "name": "httpRequestsAdaptive",
+   "type": "ZoneHttpRequestsAdaptive",
+   "desc": "Raw HTTP requests with adaptive sampling"
+  },
+  {
+   "name": "httpRequestsAdaptiveGroups",
+   "type": "ZoneHttpRequestsAdaptiveGroups",
+   "desc": "Aggregated HTTP requests data with adaptive sampling"
+  },
+  {
+   "name": "httpRequestsOverviewAdaptiveGroups",
+   "type": "ZoneHttpRequestsOverviewAdaptiveGroups",
+   "desc": "A high-level summary of HTTP requests made by end users."
+  },
+  {
+   "name": "imageResizingRequests1mGroups",
+   "type": "ZoneImageResizingRequests1mGroups",
+   "desc": "Minutely rollups of Image Resizing requests"
+  },
+  {
+   "name": "loadBalancingRequestsAdaptive",
+   "type": "ZoneLoadBalancingRequestsAdaptive",
+   "desc": "Raw Load Balancing origin requests with adaptive sampling"
+  },
+  {
+   "name": "loadBalancingRequestsAdaptiveGroups",
+   "type": "ZoneLoadBalancingRequestsAdaptiveGroups",
+   "desc": "Aggregated Load Balancing origin requests with adaptive sampling"
+  },
+  {
+   "name": "logpushHealthAdaptiveGroups",
+   "type": "ZoneLogpushHealthAdaptiveGroups",
+   "desc": "Beta. Logpush job health metrics"
+  },
+  {
+   "name": "logpushTransformersAdaptiveGroups",
+   "type": "ZoneLogpushTransformersAdaptiveGroups",
+   "desc": "Beta. Logpush transformer health metrics"
+  },
+  {
+   "name": "markdownForAgentsAdaptiveGroups",
+   "type": "ZoneMarkdownForAgentsAdaptiveGroups",
+   "desc": "Sampled in-process Markdown for Agents conversion attempts, including partial output and failures. Completion does not establish downstream delivery."
+  },
+  {
+   "name": "nelReportsAdaptiveGroups",
+   "type": "ZoneNelReportsAdaptiveGroups",
+   "desc": "Data to visualize network error logs"
+  },
+  {
+   "name": "ohttpGatewayMetricsAdaptiveGroups",
+   "type": "ZoneOhttpGatewayMetricsAdaptiveGroups",
+   "desc": "Aggregated oHTTP request metrics with adaptive sampling for Privacy Gateway customers"
+  },
+  {
+   "name": "pageShieldReportsAdaptiveGroups",
+   "type": "ZonePageShieldReportsAdaptiveGroups",
+   "desc": "Page Shield CSP reports"
+  },
+  {
+   "name": "preRenderBotRequestsAdaptiveGroups",
+   "type": "ZonePreRenderBotRequestsAdaptiveGroups",
+   "desc": "Aggregated pre-render bot requests with adaptive sampling"
+  },
+  {
+   "name": "preRenderRenderAttemptsAdaptiveGroups",
+   "type": "ZonePreRenderRenderAttemptsAdaptiveGroups",
+   "desc": "Aggregated pre-render render attempts with adaptive sampling"
+  },
+  {
+   "name": "precursorSessionsGroups",
+   "type": "ZonePrecursorSessionsGroups",
+   "desc": "Estimated Precursor sessions represented by Ready Aggregates events"
+  },
+  {
+   "name": "settings",
+   "type": "ZoneSettings",
+   "desc": ""
+  },
+  {
+   "name": "userProfilesAdaptiveGroups",
+   "type": "ZoneUserProfilesAdaptiveGroups",
+   "desc": "User ID profiles for login and sign up attempts"
+  },
+  {
+   "name": "userProfilesPiiGroups",
+   "type": "ZoneUserProfilesPiiGroups",
+   "desc": "Per-user PII attribute lookup for login and signup events. PII fields such as email require the com.cloudflare.api.account.zone.fraud-detection.pii.read permiss"
+  },
+  {
+   "name": "userProfilesRawEventsGroups",
+   "type": "ZoneUserProfilesRawEventsGroups",
+   "desc": "Historical login and signup events per user."
+  },
+  {
+   "name": "waitingRoomAnalyticsAdaptive",
+   "type": "ZoneWaitingRoomAnalyticsAdaptive",
+   "desc": "Raw Waiting Room analytics logs"
+  },
+  {
+   "name": "waitingRoomAnalyticsAdaptiveGroups",
+   "type": "ZoneWaitingRoomAnalyticsAdaptiveGroups",
+   "desc": "Aggregated Waiting Room analytics logs with adaptive sampling"
+  },
+  {
+   "name": "workersZoneInvocationsAdaptiveGroups",
+   "type": "ZoneWorkersZoneInvocationsAdaptiveGroups",
+   "desc": "Workers invocations with adaptive sampling"
+  },
+  {
+   "name": "workersZoneSubrequestsAdaptiveGroups",
+   "type": "ZoneWorkersZoneSubrequestsAdaptiveGroups",
+   "desc": "Workers subrequests with adaptive sampling"
+  },
+  {
+   "name": "zarazActionsAdaptiveGroups",
+   "type": "ZoneZarazActionsAdaptiveGroups",
+   "desc": "Zaraz Actions Analytics"
+  },
+  {
+   "name": "zarazAnalyticsIdentitiesAdaptiveGroups",
+   "type": "ZoneZarazAnalyticsIdentitiesAdaptiveGroups",
+   "desc": "Zaraz Analytics Identities - zaraz.identify calls"
+  },
+  {
+   "name": "zarazAnalyticsOrderedTrackAdaptive",
+   "type": "ZoneZarazAnalyticsOrderedTrackAdaptive",
+   "desc": "Zaraz Analytics Tracks ordered per session"
+  },
+  {
+   "name": "zarazAnalyticsOrderedTrackAdaptiveGroups",
+   "type": "ZoneZarazAnalyticsOrderedTrackAdaptiveGroups",
+   "desc": "Zaraz Analytics Tracks ordered per session"
+  },
+  {
+   "name": "zarazAnalyticsTrackAdaptiveGroups",
+   "type": "ZoneZarazAnalyticsTrackAdaptiveGroups",
+   "desc": "Zaraz Analytics Track - counts zaraz.track calls"
+  },
+  {
+   "name": "zarazAnalyticsTrackTrafficSourcesAdaptiveGroups",
+   "type": "ZoneZarazAnalyticsTrackTrafficSourcesAdaptiveGroups",
+   "desc": "Zaraz Analytics Track Traffic Sources"
+  },
+  {
+   "name": "zarazAnalyticsTriggersAdaptiveGroups",
+   "type": "ZoneZarazAnalyticsTriggersAdaptiveGroups",
+   "desc": "Zaraz Analytics Triggers (a trigger is a set of rules that can trigger a zaraz action)"
+  },
+  {
+   "name": "zarazAnalyticsTriggersTrafficSourcesAdaptiveGroups",
+   "type": "ZoneZarazAnalyticsTriggersTrafficSourcesAdaptiveGroups",
+   "desc": "Zaraz Analytics Triggers Traffic Sources"
+  },
+  {
+   "name": "zarazFetchAdaptiveGroups",
+   "type": "ZoneZarazFetchAdaptiveGroups",
+   "desc": "Aggregated Zaraz External Fetch Logs"
+  },
+  {
+   "name": "zarazTrackAdaptiveGroups",
+   "type": "ZoneZarazTrackAdaptiveGroups",
+   "desc": "Zaraz Track Analytics - counts zaraz.track calls"
+  },
+  {
+   "name": "zarazTriggersAdaptiveGroups",
+   "type": "ZoneZarazTriggersAdaptiveGroups",
+   "desc": "Zaraz Triggers Analytics (a trigger is a set of rules that can trigger a zaraz action)"
+  },
+  {
+   "name": "zoneTag",
+   "type": "string",
+   "desc": ""
+  }
+ ]
+}

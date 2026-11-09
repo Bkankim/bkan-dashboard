@@ -1,0 +1,368 @@
+{
+ "account:accessLoginRequestsAdaptiveGroups": [],
+ "account:agentMemoryOperationsAdaptiveGroups": [],
+ "account:agentModelInvocationsAdaptiveGroups": [],
+ "account:aiGatewayCacheAdaptiveGroups": [],
+ "account:aiGatewayConversationAnalysesAdaptive": [],
+ "account:aiGatewayConversationAnalysesAdaptiveGroups": [],
+ "account:aiGatewayConversationAnalysesStagingAdaptive": [],
+ "account:aiGatewayConversationAnalysesStagingAdaptiveGroups": [],
+ "account:aiGatewayErrorsAdaptiveGroups": [],
+ "account:aiGatewayRequestsAdaptiveGroups": [],
+ "account:aiGatewaySizeAdaptiveGroups": "no-selectable",
+ "account:aiGatewaySpendSessionsAdaptiveGroups": [],
+ "account:aiGatewaySpendUserDailyAdaptiveGroups": [],
+ "account:aiInferenceAdaptive": [],
+ "account:aiInferenceAdaptiveGroups": [],
+ "account:aiSearchAPIAdaptiveGroups": [],
+ "account:aiSearchFulltextQueriesAdaptiveGroups": [],
+ "account:aiSearchImageProcessingTokensAdaptiveGroups": [],
+ "account:aiSearchIngestedItemsAdaptiveGroups": [],
+ "account:aiSearchIngestionTokensAdaptiveGroups": [],
+ "account:aiSearchMediaSecondsAdaptiveGroups": [],
+ "account:aiSearchPublicEventsAdaptiveGroups": [],
+ "account:aiSearchSemanticQueriesAdaptiveGroups": [],
+ "account:aiSearchStorageAdaptiveGroups": [],
+ "account:artifactsEventsAdaptiveGroups": [],
+ "account:artifactsStorageAdaptiveGroups": "no-selectable",
+ "account:auditLogsGroups": [
+  {
+   "count": 546
+  }
+ ],
+ "account:autoRAGConfigAPIAdaptiveGroups": [],
+ "account:autoRAGEngineAdaptiveGroups": "no-selectable",
+ "account:browserIsolationSessionsAdaptiveGroups": [],
+ "account:browserIsolationUserActionsAdaptiveGroups": [],
+ "account:browserRenderingApiAdaptive": [],
+ "account:browserRenderingApiAdaptiveGroups": [],
+ "account:browserRenderingBindingSessionsAdaptiveGroups": [],
+ "account:browserRenderingBrowserTimeUsageAdaptiveGroups": [],
+ "account:browserRenderingEventsAdaptive": [],
+ "account:browserRenderingEventsAdaptiveGroups": [],
+ "account:callsStatusAdaptive": [],
+ "account:callsTurnUsageAdaptiveGroups": [],
+ "account:callsUsageAdaptiveGroups": [],
+ "account:cf1AccessLogins1dGroups": [],
+ "account:cf1AccessLogins1hGroups": [],
+ "account:cf1AccessLoginsRawGroups": [],
+ "account:cf1GatewayDns1dGroups": [],
+ "account:cf1GatewayDns1hGroups": [],
+ "account:cf1GatewayDnsRawGroups": [],
+ "account:cf1GatewayHttp1dGroups": [],
+ "account:cf1GatewayHttp1hGroups": [],
+ "account:cf1GatewayHttpRawGroups": [],
+ "account:cf1GatewayNetwork1dGroups": [],
+ "account:cf1GatewayNetwork1hGroups": [],
+ "account:cf1GatewayNetworkRawGroups": [],
+ "account:cf1GatewayNetworkSession1dGroups": [],
+ "account:cf1GatewayNetworkSession1hGroups": [],
+ "account:cf1GatewayNetworkSessionRawGroups": [],
+ "account:cf1McpHost1dGroups": [],
+ "account:cloudchamberMetricsAdaptiveGroups": [],
+ "account:cloudflareTunnelsAnalyticsAdaptiveGroups": [],
+ "account:cloudforceOneDetectionsAdaptiveGroups": [],
+ "account:cloudforceOneDetectionsStagingAdaptiveGroups": [],
+ "account:containersMetricsAdaptiveGroups": [],
+ "account:containersUsageAdaptiveGroups": [],
+ "account:d1AnalyticsAdaptiveGroups": [],
+ "account:d1QueriesAdaptiveGroups": [],
+ "account:d1StorageAdaptiveGroups": "no-selectable",
+ "account:dnsAnalyticsAdaptive": [
+  {
+   "date": "2026-11-06"
+  },
+  {
+   "date": "2026-11-08"
+  },
+  {
+   "date": "2026-11-06"
+  },
+  {
+   "date": "2026-11-06"
+  },
+  {
+   "date": "2026-11-04"
+  }
+ ],
+ "account:dnsAnalyticsAdaptiveGroups": [
+  {
+   "count": 22570
+  }
+ ],
+ "account:dnsFirewallAnalyticsAdaptive": [],
+ "account:dnsFirewallAnalyticsAdaptiveGroups": [],
+ "account:durableObjectsInvocationsAdaptiveGroups": [],
+ "account:durableObjectsPeriodicGroups": [],
+ "account:durableObjectsSqlStorageGroups": "no-selectable",
+ "account:durableObjectsStorageGroups": "no-selectable",
+ "account:durableObjectsSubrequestsAdaptiveGroups": [],
+ "account:emailComplaintsAdaptiveGroups": [],
+ "account:emailSendingAdaptive": [],
+ "account:emailSendingAdaptiveGroups": [],
+ "account:firewallEventsAdaptive": "error: account '{account}' does not have access to the field 'botdetection",
+ "account:flagshipFlagEvaluationsAdaptive": [],
+ "account:flagshipFlagEvaluationsAdaptiveGroups": [],
+ "account:gatewayL4SessionsAdaptiveGroups": [],
+ "account:gatewayL7RequestsAdaptiveGroups": [],
+ "account:gatewayResolverByCategoryAdaptiveGroups": [],
+ "account:gatewayResolverByCustomResolverGroups": [],
+ "account:gatewayResolverByRuleExecutionPerformanceAdaptiveGroups": [],
+ "account:gatewayResolverQueriesAdaptiveGroups": [],
+ "account:httpRequests1dGroups": "error: object field must have selections",
+ "account:httpRequests1hGroups": "error: object field must have selections",
+ "account:httpRequestsAdaptive": "error: account '{account}' does not have access to the field 'botdetection",
+ "account:httpRequestsAdaptiveGroups": [
+  {
+   "count": 104441
+  }
+ ],
+ "account:httpRequestsOverviewAdaptiveGroups": [
+  {
+   "sum": {
+    "bytes": 15877676247
+   }
+  }
+ ],
+ "account:hyperdrivePoolSizesAdaptiveGroups": [],
+ "account:hyperdriveQueriesAdaptiveGroups": [],
+ "account:imagesHostedRequestsAdaptiveGroups": [],
+ "account:imagesHostedRequestsStagingAdaptiveGroups": [],
+ "account:imagesRequestsAdaptiveGroups": [],
+ "account:imagesTransformationsAdaptiveGroups": [],
+ "account:imagesUniqueGroups": "no-selectable",
+ "account:imagesUniqueTransformations": [],
+ "account:imagesUniqueTransformationsAccumulatedSinceStartOfMonth": [],
+ "account:k2ConsumeAdaptiveGroups": [],
+ "account:k2ConsumeStagingAdaptiveGroups": [],
+ "account:k2ProduceAdaptiveGroups": [],
+ "account:k2ProduceStagingAdaptiveGroups": [],
+ "account:k2StorageAdaptiveGroups": "no-selectable",
+ "account:k2StorageStagingAdaptiveGroups": "no-selectable",
+ "account:k2SubscriptionLagAdaptiveGroups": "no-selectable",
+ "account:k2SubscriptionLagStagingAdaptiveGroups": "no-selectable",
+ "account:kvOperationsAdaptiveGroups": [],
+ "account:kvStorageAdaptiveGroups": "no-selectable",
+ "account:liveInputEventsAdaptive": [],
+ "account:liveInputEventsAdaptiveGroups": [],
+ "account:logExplorerIngestionAdaptiveGroups": [],
+ "account:logpushHealthAdaptiveGroups": [],
+ "account:logpushTransformersAdaptiveGroups": [],
+ "account:logpushTransformersSuccessfulUsageAdaptiveGroups": [],
+ "account:logpushUsageAdaptiveGroups": [],
+ "account:markdownForAgentsAdaptiveGroups": "error: account \"{account}\" cannot request data older than 1w, but your que",
+ "account:mediaUniqueTransformations": [],
+ "account:mediaUniqueTransformationsAccumulatedSinceStartOfMonth": [],
+ "account:mnmAWSVPCFlowDataAdaptiveGroups": [],
+ "account:mnmFlowDataAdaptiveGroups": [],
+ "account:monetizationGatewayAdaptiveGroups": [],
+ "account:networkQualityUsageAdaptiveGroups": [],
+ "account:ohttpMetricsAdaptive": [],
+ "account:ohttpMetricsAdaptiveGroups": [],
+ "account:ohttpRelayEgressConnMetricsAdaptiveGroups": [],
+ "account:ohttpRelayIngressConnMetricsAdaptiveGroups": [],
+ "account:ohttpRelayRequestMetricsAdaptiveGroups": [],
+ "account:pagesFunctionsInvocationsAdaptiveGroups": [
+  {
+   "sum": {
+    "clientDisconnects": 439
+   }
+  }
+ ],
+ "account:pipelinesDeliveryAdaptiveGroups": [],
+ "account:pipelinesIngestionAdaptiveGroups": [],
+ "account:pipelinesOperatorAdaptiveGroups": [],
+ "account:pipelinesOperatorStagingAdaptiveGroups": [],
+ "account:pipelinesSinkAdaptiveGroups": [],
+ "account:pipelinesSinkStagingAdaptiveGroups": [],
+ "account:pipelinesUserErrorsAdaptive": [],
+ "account:pipelinesUserErrorsAdaptiveGroups": [],
+ "account:pipelinesUserErrorsStagingAdaptive": [],
+ "account:pipelinesUserErrorsStagingAdaptiveGroups": [],
+ "account:precursorEventsAdaptiveGroups": [],
+ "account:precursorSessionsAdaptiveGroups": [],
+ "account:privacyProxyAuthMetricsAdaptiveGroups": [],
+ "account:privacyProxyEgressConnMetricsAdaptiveGroups": [],
+ "account:privacyProxyIngressConnMetricsAdaptiveGroups": [],
+ "account:privacyProxyRequestMetricsAdaptiveGroups": [],
+ "account:queueBacklogAdaptiveGroups": "no-selectable",
+ "account:queueConsumerMetricsAdaptiveGroups": "no-selectable",
+ "account:queueDelayedBacklogAdaptiveGroups": "no-selectable",
+ "account:queueMessageOperationsAdaptiveGroups": [],
+ "account:r2BandwidthUsageAdaptiveGroups": [],
+ "account:r2CatalogDataOperationsAdaptiveGroups": [],
+ "account:r2CatalogTableMaintenanceAdaptiveGroups": [],
+ "account:r2OperationsAdaptiveGroups": [],
+ "account:r2StorageAdaptiveGroups": "no-selectable",
+ "account:r2sqlOperationsAdaptiveGroups": [],
+ "account:realtimeKitUsageAdaptiveGroups": [],
+ "account:rumPageloadEventsAdaptiveGroups": [
+  {
+   "count": 76
+  }
+ ],
+ "account:rumPerformanceEventsAdaptiveGroups": [
+  {
+   "count": 72
+  }
+ ],
+ "account:rumWebVitalsEventsAdaptive": [
+  {
+   "cumulativeLayoutShift": 0.005
+  },
+  {
+   "cumulativeLayoutShift": 0
+  },
+  {
+   "cumulativeLayoutShift": 0.535
+  },
+  {
+   "cumulativeLayoutShift": 0
+  },
+  {
+   "cumulativeLayoutShift": 0
+  }
+ ],
+ "account:rumWebVitalsEventsAdaptiveGroups": [
+  {
+   "count": 56
+  }
+ ],
+ "account:shadowIt1hGroups": [],
+ "account:sippyOperationsAdaptiveGroups": [],
+ "account:streamCMCDAdaptiveGroups": [],
+ "account:streamMinutesViewedAdaptiveGroups": [],
+ "account:streamWHEPPlaybackMetricsAdaptiveGroups": [],
+ "account:streamWHIPBroadcastMetricsAdaptive": [],
+ "account:streamWHIPBroadcastMetricsAdaptiveGroups": [],
+ "account:toMarkdownConversionAdaptive": [],
+ "account:toMarkdownConversionAdaptiveGroups": [],
+ "account:turnstileAdaptiveGroups": [],
+ "account:vectorizeQueriesAdaptiveGroups": [],
+ "account:vectorizeStorageAdaptiveGroups": "no-selectable",
+ "account:vectorizeV2OperationsAdaptiveGroups": [],
+ "account:vectorizeV2QueriesAdaptiveGroups": [],
+ "account:vectorizeV2StorageAdaptiveGroups": "no-selectable",
+ "account:vectorizeV2WritesAdaptiveGroups": [],
+ "account:videoBufferEventsAdaptiveGroups": [],
+ "account:videoPlaybackEventsAdaptiveGroups": [],
+ "account:videoQualityEventsAdaptiveGroups": [],
+ "account:warpDeviceAdaptiveGroups": [],
+ "account:webSearchRequestsAdaptiveGroups": [],
+ "account:workerPlacementAdaptiveGroups": [],
+ "account:workersAnalyticsEngineAdaptiveGroups": [],
+ "account:workersAssetsRequestsAdaptiveGroups": [],
+ "account:workersBuildsBuildMinutesAdaptiveGroups": [],
+ "account:workersCacheRequestsAdaptiveGroups": [],
+ "account:workersInvocationsAdaptive": [],
+ "account:workersInvocationsByOwnerAndScriptGroups": [],
+ "account:workersInvocationsScheduled": [],
+ "account:workersOverviewDataAdaptiveGroups": [
+  {
+   "sum": {
+    "standardCpuTimeUs": 14519913
+   }
+  }
+ ],
+ "account:workersOverviewRequestsAdaptiveGroups": [
+  {
+   "count": 7745
+  }
+ ],
+ "account:workersSubrequestsAdaptiveGroups": [],
+ "account:workersVpcConnectionAdaptiveGroups": [],
+ "account:workflowsAdaptive": [],
+ "account:workflowsAdaptiveGroups": [],
+ "account:workflowsBlockedReasonAdaptiveGroups": [],
+ "account:workflowsQueueDepthAdaptiveGroups": [],
+ "account:workflowsQueueWaitAdaptiveGroups": [],
+ "account:zarazTrackAdaptiveGroups": [],
+ "account:zarazTriggersAdaptiveGroups": [],
+ "account:zeroTrustPrivateNetworkDiscoveryGroups": [],
+ "zone:apiGatewayGraphqlQueryAnalyticsGroups": [],
+ "zone:apiGatewayMatchedSessionIDsAdaptiveGroups": [],
+ "zone:apiGatewayMatchedSessionIDsPerEndpointAdaptiveGroups": [
+  {
+   "count": 20400
+  }
+ ],
+ "zone:apiGatewayMatchedSessionIDsPerEndpointFlattenedAdaptiveGroups": [
+  {
+   "count": 20400
+  }
+ ],
+ "zone:apiRequestSequencesGroups": "no-selectable",
+ "zone:cacheReserveOperationsAdaptiveGroups": [],
+ "zone:cacheReserveStorageAdaptiveGroups": "no-selectable",
+ "zone:dmarcReportsAdaptive": [],
+ "zone:dmarcReportsSourcesAdaptiveGroups": [],
+ "zone:dnsAnalyticsAdaptive": [
+  {
+   "date": "2026-11-04"
+  },
+  {
+   "date": "2026-11-04"
+  },
+  {
+   "date": "2026-11-04"
+  },
+  {
+   "date": "2026-11-04"
+  },
+  {
+   "date": "2026-11-04"
+  }
+ ],
+ "zone:dnsAnalyticsAdaptiveGroups": [
+  {
+   "count": 18660
+  }
+ ],
+ "zone:emailComplaintsAdaptiveGroups": [],
+ "zone:emailRoutingAdaptive": [],
+ "zone:emailRoutingAdaptiveGroups": [],
+ "zone:emailSendingAdaptive": [],
+ "zone:emailSendingAdaptiveGroups": [],
+ "zone:firewallEventsAdaptive": "error: zone '{zone}' does not have access to the field 'botdetectionids",
+ "zone:firewallEventsAdaptiveByTimeGroups": [
+  {
+   "count": 9339
+  }
+ ],
+ "zone:httpRequests1dGroups": "error: object field must have selections",
+ "zone:httpRequests1hGroups": "error: object field must have selections",
+ "zone:httpRequestsAdaptive": "error: zone '{zone}' does not have access to the field 'botdetectionids",
+ "zone:httpRequestsAdaptiveGroups": [
+  {
+   "count": 31804
+  }
+ ],
+ "zone:httpRequestsOverviewAdaptiveGroups": [
+  {
+   "sum": {
+    "bytes": 1075439553
+   }
+  }
+ ],
+ "zone:imageResizingRequests1mGroups": [],
+ "zone:logpushHealthAdaptiveGroups": [],
+ "zone:logpushTransformersAdaptiveGroups": [],
+ "zone:markdownForAgentsAdaptiveGroups": "error: zone \"{zone}\" cannot request data older than 1w, but your query ",
+ "zone:ohttpGatewayMetricsAdaptiveGroups": [],
+ "zone:preRenderBotRequestsAdaptiveGroups": [],
+ "zone:preRenderRenderAttemptsAdaptiveGroups": [],
+ "zone:precursorSessionsGroups": "error: zone \"{zone}\" cannot request a time range wider than 1w1h, but y",
+ "zone:workersZoneInvocationsAdaptiveGroups": [],
+ "zone:workersZoneSubrequestsAdaptiveGroups": [],
+ "zone:zarazActionsAdaptiveGroups": [],
+ "zone:zarazAnalyticsIdentitiesAdaptiveGroups": [],
+ "zone:zarazAnalyticsOrderedTrackAdaptive": [],
+ "zone:zarazAnalyticsOrderedTrackAdaptiveGroups": [],
+ "zone:zarazAnalyticsTrackAdaptiveGroups": [],
+ "zone:zarazAnalyticsTrackTrafficSourcesAdaptiveGroups": [],
+ "zone:zarazAnalyticsTriggersAdaptiveGroups": [],
+ "zone:zarazAnalyticsTriggersTrafficSourcesAdaptiveGroups": [],
+ "zone:zarazFetchAdaptiveGroups": [],
+ "zone:zarazTrackAdaptiveGroups": [],
+ "zone:zarazTriggersAdaptiveGroups": []
+}

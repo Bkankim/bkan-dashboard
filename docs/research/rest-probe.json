@@ -1,0 +1,227 @@
+{
+ "account": {
+  "path": "/accounts/{account}",
+  "status": "ok",
+  "n": 6
+ },
+ "pages projects": {
+  "path": "/accounts/{account}/pages/projects",
+  "status": "ok",
+  "n": 4
+ },
+ "workers scripts": {
+  "path": "/accounts/{account}/workers/scripts",
+  "status": "ok",
+  "n": 0
+ },
+ "workers domains": {
+  "path": "/accounts/{account}/workers/domains",
+  "status": "ok",
+  "n": 0
+ },
+ "workers subdomain": {
+  "path": "/accounts/{account}/workers/subdomain",
+  "status": "HTTP 404",
+  "n": null
+ },
+ "r2 buckets": {
+  "path": "/accounts/{account}/r2/buckets",
+  "status": "ok",
+  "n": 1
+ },
+ "kv namespaces": {
+  "path": "/accounts/{account}/storage/kv/namespaces",
+  "status": "ok",
+  "n": 0
+ },
+ "d1 databases": {
+  "path": "/accounts/{account}/d1/database",
+  "status": "ok",
+  "n": 0
+ },
+ "queues": {
+  "path": "/accounts/{account}/queues",
+  "status": "ok",
+  "n": 0
+ },
+ "web analytics sites": {
+  "path": "/accounts/{account}/rum/site_info/list",
+  "status": "ok",
+  "n": 2
+ },
+ "audit logs v1": {
+  "path": "/accounts/{account}/audit_logs?per_page=5",
+  "status": "ok",
+  "n": 5
+ },
+ "registrar domains": {
+  "path": "/accounts/{account}/registrar/domains",
+  "status": "ok",
+  "n": 1
+ },
+ "email routing addresses": {
+  "path": "/accounts/{account}/email/routing/addresses",
+  "status": "ok",
+  "n": 1
+ },
+ "notification policies": {
+  "path": "/accounts/{account}/alerting/v3/policies",
+  "status": "ok",
+  "n": 1
+ },
+ "notification history": {
+  "path": "/accounts/{account}/alerting/v3/history?per_page=5",
+  "status": "ok",
+  "n": null
+ },
+ "turnstile widgets": {
+  "path": "/accounts/{account}/challenges/widgets",
+  "status": "ok",
+  "n": 0
+ },
+ "tunnels": {
+  "path": "/accounts/{account}/cfd_tunnel?is_deleted=false",
+  "status": "ok",
+  "n": 0
+ },
+ "access apps": {
+  "path": "/accounts/{account}/access/apps",
+  "status": "HTTP 403",
+  "n": null
+ },
+ "ai gateways": {
+  "path": "/accounts/{account}/ai-gateway/gateways",
+  "status": "ok",
+  "n": 0
+ },
+ "security center insights": {
+  "path": "/accounts/{account}/security-center/insights?per_page=10",
+  "status": "ok",
+  "n": 4
+ },
+ "rulesets (account)": {
+  "path": "/accounts/{account}/rulesets",
+  "status": "ok",
+  "n": 1
+ },
+ "logpush jobs": {
+  "path": "/accounts/{account}/logpush/jobs",
+  "status": "HTTP 403",
+  "n": null
+ },
+ "workers builds?": {
+  "path": "/accounts/{account}/builds/workers",
+  "status": "HTTP 401",
+  "n": null
+ },
+ "zone": {
+  "path": "/zones/{zone}",
+  "status": "ok",
+  "n": 22
+ },
+ "dns records": {
+  "path": "/zones/{zone}/dns_records?per_page=100",
+  "status": "ok",
+  "n": 22
+ },
+ "zone settings": {
+  "path": "/zones/{zone}/settings",
+  "status": "ok",
+  "n": 56
+ },
+ "ssl certificate packs": {
+  "path": "/zones/{zone}/ssl/certificate_packs",
+  "status": "ok",
+  "n": 1
+ },
+ "ssl verification": {
+  "path": "/zones/{zone}/ssl/verification",
+  "status": "ok",
+  "n": 1
+ },
+ "dnssec": {
+  "path": "/zones/{zone}/dnssec",
+  "status": "ok",
+  "n": 10
+ },
+ "email routing": {
+  "path": "/zones/{zone}/email/routing",
+  "status": "ok",
+  "n": 11
+ },
+ "email routing rules": {
+  "path": "/zones/{zone}/email/routing/rules",
+  "status": "ok",
+  "n": 4
+ },
+ "rulesets (zone)": {
+  "path": "/zones/{zone}/rulesets",
+  "status": "ok",
+  "n": 5
+ },
+ "page rules": {
+  "path": "/zones/{zone}/pagerules",
+  "status": "HTTP 400",
+  "n": null
+ },
+ "firewall access rules": {
+  "path": "/zones/{zone}/firewall/access_rules/rules",
+  "status": "ok",
+  "n": 0
+ },
+ "bot management": {
+  "path": "/zones/{zone}/bot_management",
+  "status": "ok",
+  "n": 14
+ },
+ "health checks": {
+  "path": "/zones/{zone}/healthchecks",
+  "status": "ok",
+  "n": 0
+ },
+ "workers routes": {
+  "path": "/zones/{zone}/workers/routes",
+  "status": "ok",
+  "n": 0
+ },
+ "zone holds": {
+  "path": "/zones/{zone}/hold",
+  "status": "ok",
+  "n": 3
+ },
+ "ai crawl (bots summary?)": {
+  "path": "/zones/{zone}/ai-audit/bots",
+  "status": "HTTP 404",
+  "n": null
+ },
+ "security center (zone)": {
+  "path": "/zones/{zone}/security-center/insights",
+  "status": "ok",
+  "n": 4
+ },
+ "radar domain rank": {
+  "path": "/radar/ranking/domain/bkan.dev",
+  "status": "ok",
+  "n": 2
+ },
+ "radar ai bots summary": {
+  "path": "/radar/ai/bots/summary/user_agent?dateRange=7d",
+  "status": "ok",
+  "n": 2
+ },
+ "radar verified bots": {
+  "path": "/radar/verified_bots/top/bots?dateRange=7d&limit=5",
+  "status": "ok",
+  "n": 2
+ },
+ "url scanner (account)": {
+  "path": "/accounts/{account}/urlscanner/v2/search?q=bkan.dev",
+  "status": "ok",
+  "n": null
+ },
+ "intel domain": {
+  "path": "/accounts/{account}/intel/domain?domain=bkan.dev",
+  "status": "ok",
+  "n": 6
+ }
+}

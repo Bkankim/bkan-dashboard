@@ -1,0 +1,1896 @@
+{
+ "account": {
+  "MagicWANConnectorMetricsAdaptiveGroups": {
+   "enabled": false,
+   "maxDuration": 604800,
+   "maxPageSize": 10000,
+   "notOlderThan": 31536000
+  },
+  "accessLoginRequestsAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 604800,
+   "maxPageSize": 10000,
+   "notOlderThan": 7776000
+  },
+  "advancedDnsProtectionNetworkAnalyticsAdaptiveGroups": {
+   "enabled": false,
+   "maxDuration": 604800,
+   "maxPageSize": 10000,
+   "notOlderThan": 31536000
+  },
+  "advancedTcpProtectionNetworkAnalyticsAdaptiveGroups": {
+   "enabled": false,
+   "maxDuration": 604800,
+   "maxPageSize": 10000,
+   "notOlderThan": 31536000
+  },
+  "aegisIpUtilizationAdaptiveGroups": {
+   "enabled": false,
+   "maxDuration": 0,
+   "maxPageSize": 10000,
+   "notOlderThan": 0
+  },
+  "agentMemoryOperationsAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 2764800
+  },
+  "agentModelInvocationsAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 7776000,
+   "maxPageSize": 10000,
+   "notOlderThan": 7776000
+  },
+  "aiGatewayCacheAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 2764800
+  },
+  "aiGatewayConversationAnalysesAdaptive": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 7776000
+  },
+  "aiGatewayConversationAnalysesAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 7776000
+  },
+  "aiGatewayConversationAnalysesStagingAdaptive": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 7776000
+  },
+  "aiGatewayConversationAnalysesStagingAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 7776000
+  },
+  "aiGatewayErrorsAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 2764800
+  },
+  "aiGatewayRequestsAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 5356800
+  },
+  "aiGatewaySizeAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 2764800
+  },
+  "aiGatewaySpendSessionsAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 2764800
+  },
+  "aiGatewaySpendUserDailyAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 2764800
+  },
+  "aiInferenceAdaptive": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 2764800
+  },
+  "aiInferenceAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 2764800
+  },
+  "aiSearchAPIAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 2764800
+  },
+  "aiSearchFulltextQueriesAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 2764800
+  },
+  "aiSearchImageProcessingTokensAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 2764800
+  },
+  "aiSearchIngestedItemsAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 2764800
+  },
+  "aiSearchIngestionTokensAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 2764800
+  },
+  "aiSearchMediaSecondsAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 2764800
+  },
+  "aiSearchPublicEventsAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 2764800
+  },
+  "aiSearchSemanticQueriesAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 2764800
+  },
+  "aiSearchStorageAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 2764800
+  },
+  "artifactsEventsAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2678400,
+   "maxPageSize": 10000,
+   "notOlderThan": 2678400
+  },
+  "artifactsStorageAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2678400,
+   "maxPageSize": 10000,
+   "notOlderThan": 2678400
+  },
+  "auditLogsGroups": {
+   "enabled": true,
+   "maxDuration": 15552000,
+   "maxPageSize": 10000,
+   "notOlderThan": 46656000
+  },
+  "autoRAGConfigAPIAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 2764800
+  },
+  "autoRAGEngineAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 2764800
+  },
+  "browserIsolationSessionsAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2592000,
+   "maxPageSize": 10000,
+   "notOlderThan": 2678400
+  },
+  "browserIsolationUserActionsAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2592000,
+   "maxPageSize": 10000,
+   "notOlderThan": 2678400
+  },
+  "browserRenderingApiAdaptive": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 2764800
+  },
+  "browserRenderingApiAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 2764800
+  },
+  "browserRenderingBindingSessionsAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 2764800
+  },
+  "browserRenderingBrowserTimeUsageAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 2764800
+  },
+  "browserRenderingEventsAdaptive": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 2764800
+  },
+  "browserRenderingEventsAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 2764800
+  },
+  "callsStatusAdaptive": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 2764800
+  },
+  "callsTurnUsageAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 2764800
+  },
+  "callsUsageAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 2764800
+  },
+  "cdnNetworkAnalyticsAdaptiveGroups": {
+   "enabled": false,
+   "maxDuration": 604800,
+   "maxPageSize": 10000,
+   "notOlderThan": 31536000
+  },
+  "cf1AccessLogins1dGroups": {
+   "enabled": true,
+   "maxDuration": 7776000,
+   "maxPageSize": 10000,
+   "notOlderThan": 31536000
+  },
+  "cf1AccessLogins1hGroups": {
+   "enabled": true,
+   "maxDuration": 2678400,
+   "maxPageSize": 10000,
+   "notOlderThan": 5356800
+  },
+  "cf1AccessLoginsRawGroups": {
+   "enabled": true,
+   "maxDuration": 10800,
+   "maxPageSize": 10000,
+   "notOlderThan": 2678400
+  },
+  "cf1GatewayDns1dGroups": {
+   "enabled": true,
+   "maxDuration": 7776000,
+   "maxPageSize": 10000,
+   "notOlderThan": 31536000
+  },
+  "cf1GatewayDns1hGroups": {
+   "enabled": true,
+   "maxDuration": 2678400,
+   "maxPageSize": 10000,
+   "notOlderThan": 7776000
+  },
+  "cf1GatewayDnsRawGroups": {
+   "enabled": true,
+   "maxDuration": 10800,
+   "maxPageSize": 10000,
+   "notOlderThan": 7776000
+  },
+  "cf1GatewayHttp1dGroups": {
+   "enabled": true,
+   "maxDuration": 7776000,
+   "maxPageSize": 10000,
+   "notOlderThan": 31536000
+  },
+  "cf1GatewayHttp1hGroups": {
+   "enabled": true,
+   "maxDuration": 2678400,
+   "maxPageSize": 10000,
+   "notOlderThan": 5356800
+  },
+  "cf1GatewayHttpRawGroups": {
+   "enabled": true,
+   "maxDuration": 10800,
+   "maxPageSize": 10000,
+   "notOlderThan": 345600
+  },
+  "cf1GatewayNetwork1dGroups": {
+   "enabled": true,
+   "maxDuration": 7776000,
+   "maxPageSize": 10000,
+   "notOlderThan": 31536000
+  },
+  "cf1GatewayNetwork1hGroups": {
+   "enabled": true,
+   "maxDuration": 2678400,
+   "maxPageSize": 10000,
+   "notOlderThan": 5356800
+  },
+  "cf1GatewayNetworkRawGroups": {
+   "enabled": true,
+   "maxDuration": 10800,
+   "maxPageSize": 10000,
+   "notOlderThan": 345600
+  },
+  "cf1GatewayNetworkSession1dGroups": {
+   "enabled": true,
+   "maxDuration": 7776000,
+   "maxPageSize": 10000,
+   "notOlderThan": 31536000
+  },
+  "cf1GatewayNetworkSession1hGroups": {
+   "enabled": true,
+   "maxDuration": 2678400,
+   "maxPageSize": 10000,
+   "notOlderThan": 5356800
+  },
+  "cf1GatewayNetworkSessionRawGroups": {
+   "enabled": true,
+   "maxDuration": 10800,
+   "maxPageSize": 10000,
+   "notOlderThan": 345600
+  },
+  "cf1McpHost1dGroups": {
+   "enabled": true,
+   "maxDuration": 7776000,
+   "maxPageSize": 10000,
+   "notOlderThan": 31536000
+  },
+  "cloudchamberMetricsAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 2764800
+  },
+  "cloudflareTunnelsAnalyticsAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 2764800
+  },
+  "cloudforceOneDetectionsAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 7776000
+  },
+  "cloudforceOneDetectionsStagingAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 7776000
+  },
+  "containersMetricsAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 2764800
+  },
+  "containersUsageAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 2764800
+  },
+  "d1AnalyticsAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 7776000
+  },
+  "d1QueriesAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 7776000
+  },
+  "d1StorageAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 7776000
+  },
+  "dnsAnalyticsAdaptive": {
+   "enabled": true,
+   "maxDuration": 2592000,
+   "maxPageSize": 10000,
+   "notOlderThan": 2678400
+  },
+  "dnsAnalyticsAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2592000,
+   "maxPageSize": 10000,
+   "notOlderThan": 2678400
+  },
+  "dnsFirewallAnalyticsAdaptive": {
+   "enabled": true,
+   "maxDuration": 5356800,
+   "maxPageSize": 10000,
+   "notOlderThan": 5356800
+  },
+  "dnsFirewallAnalyticsAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 5356800,
+   "maxPageSize": 10000,
+   "notOlderThan": 5356800
+  },
+  "dosdAttackAnalyticsGroups": {
+   "enabled": false,
+   "maxDuration": 604800,
+   "maxPageSize": 10000,
+   "notOlderThan": 31536000
+  },
+  "dosdNetworkAnalyticsAdaptiveGroups": {
+   "enabled": false,
+   "maxDuration": 604800,
+   "maxPageSize": 10000,
+   "notOlderThan": 31536000
+  },
+  "durableObjectsInvocationsAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 7776000
+  },
+  "durableObjectsPeriodicGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 7776000
+  },
+  "durableObjectsSqlStorageGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 7776000
+  },
+  "durableObjectsStorageGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 7776000
+  },
+  "durableObjectsSubrequestsAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 7776000
+  },
+  "emailComplaintsAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2678400,
+   "maxPageSize": 10000,
+   "notOlderThan": 2678400
+  },
+  "emailSendingAdaptive": {
+   "enabled": true,
+   "maxDuration": 2678400,
+   "maxPageSize": 10000,
+   "notOlderThan": 2678400
+  },
+  "emailSendingAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2678400,
+   "maxPageSize": 10000,
+   "notOlderThan": 2678400
+  },
+  "fbmAttackAnalyticsGroups": {
+   "enabled": false,
+   "maxDuration": 604800,
+   "maxPageSize": 10000,
+   "notOlderThan": 31536000
+  },
+  "firewallEventsAdaptive": {
+   "enabled": true,
+   "maxDuration": 2592000,
+   "maxPageSize": 10000,
+   "notOlderThan": 2678400
+  },
+  "firewallEventsAdaptiveGroups": {
+   "enabled": false,
+   "maxDuration": 0,
+   "maxPageSize": 10000,
+   "notOlderThan": 0
+  },
+  "flagshipFlagEvaluationsAdaptive": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 2764800
+  },
+  "flagshipFlagEvaluationsAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 2764800
+  },
+  "flowtrackdNetworkAnalyticsAdaptiveGroups": {
+   "enabled": false,
+   "maxDuration": 604800,
+   "maxPageSize": 10000,
+   "notOlderThan": 31536000
+  },
+  "gatewayL4DownstreamSessionsAdaptiveGroups": {
+   "enabled": false,
+   "maxDuration": 604800,
+   "maxPageSize": 10000,
+   "notOlderThan": 31536000
+  },
+  "gatewayL4SessionsAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2592000,
+   "maxPageSize": 10000,
+   "notOlderThan": 2678400
+  },
+  "gatewayL4UpstreamSessionsAdaptiveGroups": {
+   "enabled": false,
+   "maxDuration": 604800,
+   "maxPageSize": 10000,
+   "notOlderThan": 31536000
+  },
+  "gatewayL7RequestsAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2592000,
+   "maxPageSize": 10000,
+   "notOlderThan": 2678400
+  },
+  "gatewayResolverByCategoryAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2678400,
+   "maxPageSize": 10000,
+   "notOlderThan": 2678400
+  },
+  "gatewayResolverByCustomResolverGroups": {
+   "enabled": true,
+   "maxDuration": 2678400,
+   "maxPageSize": 10000,
+   "notOlderThan": 2678400
+  },
+  "gatewayResolverByRuleExecutionPerformanceAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2678400,
+   "maxPageSize": 10000,
+   "notOlderThan": 2678400
+  },
+  "gatewayResolverQueriesAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2678400,
+   "maxPageSize": 10000,
+   "notOlderThan": 2678400
+  },
+  "httpRequests1dGroups": {
+   "enabled": true,
+   "maxDuration": 31539600,
+   "maxPageSize": 10000,
+   "notOlderThan": 31539600
+  },
+  "httpRequests1hGroups": {
+   "enabled": true,
+   "maxDuration": 604800,
+   "maxPageSize": 10000,
+   "notOlderThan": 31536000
+  },
+  "httpRequests1mGroups": {
+   "enabled": false,
+   "maxDuration": 604800,
+   "maxPageSize": 10000,
+   "notOlderThan": 31536000
+  },
+  "httpRequestsAdaptive": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 2764800
+  },
+  "httpRequestsAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 2764800
+  },
+  "httpRequestsOverviewAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 2764800
+  },
+  "hyperdrivePoolSizesAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 2764800
+  },
+  "hyperdriveQueriesAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 2764800
+  },
+  "imagesHostedRequestsAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2595600,
+   "maxPageSize": 10000,
+   "notOlderThan": 2595600
+  },
+  "imagesHostedRequestsStagingAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2595600,
+   "maxPageSize": 10000,
+   "notOlderThan": 2595600
+  },
+  "imagesRequestsAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2678400,
+   "maxPageSize": 10000,
+   "notOlderThan": 2678400
+  },
+  "imagesTransformationsAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2595600,
+   "maxPageSize": 10000,
+   "notOlderThan": 2678400
+  },
+  "imagesUniqueGroups": {
+   "enabled": true,
+   "maxDuration": 5270400,
+   "maxPageSize": 10000,
+   "notOlderThan": 5270400
+  },
+  "imagesUniqueTransformations": {
+   "enabled": true,
+   "maxDuration": 5270400,
+   "maxPageSize": 10000,
+   "notOlderThan": 5270400
+  },
+  "imagesUniqueTransformationsAccumulatedSinceStartOfMonth": {
+   "enabled": true,
+   "maxDuration": 5270400,
+   "maxPageSize": 10000,
+   "notOlderThan": 5270400
+  },
+  "k2ConsumeAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 7776000
+  },
+  "k2ConsumeStagingAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 7776000
+  },
+  "k2ProduceAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 7776000
+  },
+  "k2ProduceStagingAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 7776000
+  },
+  "k2StorageAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 7776000
+  },
+  "k2StorageStagingAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 7776000
+  },
+  "k2SubscriptionLagAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 7776000
+  },
+  "k2SubscriptionLagStagingAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 7776000
+  },
+  "kvOperationsAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 7776000
+  },
+  "kvStorageAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 7776000
+  },
+  "lbHealthEntitiesGroups": {
+   "enabled": false,
+   "maxDuration": 604800,
+   "maxPageSize": 10000,
+   "notOlderThan": 31536000
+  },
+  "lbHealthEvents": {
+   "enabled": false,
+   "maxDuration": 604800,
+   "maxPageSize": 10000,
+   "notOlderThan": 31536000
+  },
+  "liveInputEventsAdaptive": {
+   "enabled": true,
+   "maxDuration": 2592000,
+   "maxPageSize": 10000,
+   "notOlderThan": 2678400
+  },
+  "liveInputEventsAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2592000,
+   "maxPageSize": 10000,
+   "notOlderThan": 2678400
+  },
+  "logExplorerIngestionAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 2764800
+  },
+  "logpushHealthAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2592000,
+   "maxPageSize": 10000,
+   "notOlderThan": 2595600
+  },
+  "logpushTransformersAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2592000,
+   "maxPageSize": 10000,
+   "notOlderThan": 2595600
+  },
+  "logpushTransformersSuccessfulUsageAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 5184000
+  },
+  "logpushUsageAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 5184000
+  },
+  "magicEndpointHealthCheckAdaptiveGroups": {
+   "enabled": false,
+   "maxDuration": 604800,
+   "maxPageSize": 10000,
+   "notOlderThan": 31536000
+  },
+  "magicFirewallNetworkAnalyticsAdaptiveGroups": {
+   "enabled": false,
+   "maxDuration": 604800,
+   "maxPageSize": 10000,
+   "notOlderThan": 31536000
+  },
+  "magicFirewallRateLimitNetworkAnalyticsAdaptiveGroups": {
+   "enabled": false,
+   "maxDuration": 604800,
+   "maxPageSize": 10000,
+   "notOlderThan": 31536000
+  },
+  "magicFirewallSamplesAdaptiveGroups": {
+   "enabled": false,
+   "maxDuration": 604800,
+   "maxPageSize": 10000,
+   "notOlderThan": 31536000
+  },
+  "magicIDPSNetworkAnalyticsAdaptiveGroups": {
+   "enabled": false,
+   "maxDuration": 604800,
+   "maxPageSize": 10000,
+   "notOlderThan": 31536000
+  },
+  "magicTransitFragNeededErrorsAdaptiveGroups": {
+   "enabled": false,
+   "maxDuration": 604800,
+   "maxPageSize": 10000,
+   "notOlderThan": 31536000
+  },
+  "magicTransitNetworkAnalyticsAdaptiveGroups": {
+   "enabled": false,
+   "maxDuration": 604800,
+   "maxPageSize": 10000,
+   "notOlderThan": 31536000
+  },
+  "magicTransitTunnelHealthCheckSLOsAdaptiveGroups": {
+   "enabled": false,
+   "maxDuration": 604800,
+   "maxPageSize": 10000,
+   "notOlderThan": 31536000
+  },
+  "magicTransitTunnelHealthChecksAdaptiveGroups": {
+   "enabled": false,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 7948800
+  },
+  "magicTransitTunnelTrafficAdaptiveGroups": {
+   "enabled": false,
+   "maxDuration": 604800,
+   "maxPageSize": 10000,
+   "notOlderThan": 31536000
+  },
+  "markdownForAgentsAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 604800,
+   "maxPageSize": 1000,
+   "notOlderThan": 604800
+  },
+  "mconnTelemetryEventsAdaptiveGroups": {
+   "enabled": false,
+   "maxDuration": 604800,
+   "maxPageSize": 10000,
+   "notOlderThan": 31536000
+  },
+  "mconnTelemetryEventsStagingAdaptiveGroups": {
+   "enabled": false,
+   "maxDuration": 604800,
+   "maxPageSize": 10000,
+   "notOlderThan": 31536000
+  },
+  "mconnTelemetrySnapshotDhcpLeasesAdaptiveGroups": {
+   "enabled": false,
+   "maxDuration": 604800,
+   "maxPageSize": 10000,
+   "notOlderThan": 31536000
+  },
+  "mconnTelemetrySnapshotDhcpLeasesStagingAdaptiveGroups": {
+   "enabled": false,
+   "maxDuration": 604800,
+   "maxPageSize": 10000,
+   "notOlderThan": 31536000
+  },
+  "mconnTelemetrySnapshotDisksAdaptiveGroups": {
+   "enabled": false,
+   "maxDuration": 604800,
+   "maxPageSize": 10000,
+   "notOlderThan": 31536000
+  },
+  "mconnTelemetrySnapshotDisksStagingAdaptiveGroups": {
+   "enabled": false,
+   "maxDuration": 604800,
+   "maxPageSize": 10000,
+   "notOlderThan": 31536000
+  },
+  "mconnTelemetrySnapshotInterfaceAddressesAdaptiveGroups": {
+   "enabled": false,
+   "maxDuration": 604800,
+   "maxPageSize": 10000,
+   "notOlderThan": 31536000
+  },
+  "mconnTelemetrySnapshotInterfaceAddressesStagingAdaptiveGroups": {
+   "enabled": false,
+   "maxDuration": 604800,
+   "maxPageSize": 10000,
+   "notOlderThan": 31536000
+  },
+  "mconnTelemetrySnapshotInterfacesAdaptiveGroups": {
+   "enabled": false,
+   "maxDuration": 604800,
+   "maxPageSize": 10000,
+   "notOlderThan": 31536000
+  },
+  "mconnTelemetrySnapshotInterfacesStagingAdaptiveGroups": {
+   "enabled": false,
+   "maxDuration": 604800,
+   "maxPageSize": 10000,
+   "notOlderThan": 31536000
+  },
+  "mconnTelemetrySnapshotMountsAdaptiveGroups": {
+   "enabled": false,
+   "maxDuration": 604800,
+   "maxPageSize": 10000,
+   "notOlderThan": 31536000
+  },
+  "mconnTelemetrySnapshotMountsStagingAdaptiveGroups": {
+   "enabled": false,
+   "maxDuration": 604800,
+   "maxPageSize": 10000,
+   "notOlderThan": 31536000
+  },
+  "mconnTelemetrySnapshotNetdevsAdaptiveGroups": {
+   "enabled": false,
+   "maxDuration": 604800,
+   "maxPageSize": 10000,
+   "notOlderThan": 31536000
+  },
+  "mconnTelemetrySnapshotNetdevsStagingAdaptiveGroups": {
+   "enabled": false,
+   "maxDuration": 604800,
+   "maxPageSize": 10000,
+   "notOlderThan": 31536000
+  },
+  "mconnTelemetrySnapshotThermalsAdaptiveGroups": {
+   "enabled": false,
+   "maxDuration": 604800,
+   "maxPageSize": 10000,
+   "notOlderThan": 31536000
+  },
+  "mconnTelemetrySnapshotThermalsStagingAdaptiveGroups": {
+   "enabled": false,
+   "maxDuration": 604800,
+   "maxPageSize": 10000,
+   "notOlderThan": 31536000
+  },
+  "mconnTelemetrySnapshotTunnelsAdaptiveGroups": {
+   "enabled": false,
+   "maxDuration": 604800,
+   "maxPageSize": 10000,
+   "notOlderThan": 31536000
+  },
+  "mconnTelemetrySnapshotTunnelsStagingAdaptiveGroups": {
+   "enabled": false,
+   "maxDuration": 604800,
+   "maxPageSize": 10000,
+   "notOlderThan": 31536000
+  },
+  "mconnTelemetrySnapshotsAdaptiveGroups": {
+   "enabled": false,
+   "maxDuration": 604800,
+   "maxPageSize": 10000,
+   "notOlderThan": 31536000
+  },
+  "mconnTelemetrySnapshotsStagingAdaptiveGroups": {
+   "enabled": false,
+   "maxDuration": 604800,
+   "maxPageSize": 10000,
+   "notOlderThan": 31536000
+  },
+  "mediaUniqueTransformations": {
+   "enabled": true,
+   "maxDuration": 5270400,
+   "maxPageSize": 10000,
+   "notOlderThan": 5270400
+  },
+  "mediaUniqueTransformationsAccumulatedSinceStartOfMonth": {
+   "enabled": true,
+   "maxDuration": 5270400,
+   "maxPageSize": 10000,
+   "notOlderThan": 5270400
+  },
+  "mnmAWSVPCFlowDataAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2592000,
+   "maxPageSize": 10000,
+   "notOlderThan": 2678400
+  },
+  "mnmFlowDataAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2592000,
+   "maxPageSize": 10000,
+   "notOlderThan": 2678400
+  },
+  "monetizationGatewayAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2678400,
+   "maxPageSize": 10000,
+   "notOlderThan": 15552000
+  },
+  "nelReportsAdaptiveGroups": {
+   "enabled": false,
+   "maxDuration": 604800,
+   "maxPageSize": 10000,
+   "notOlderThan": 31536000
+  },
+  "networkQualityUsageAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2678400,
+   "maxPageSize": 10000,
+   "notOlderThan": 7776000
+  },
+  "ohttpMetricsAdaptive": {
+   "enabled": true,
+   "maxDuration": 604800,
+   "maxPageSize": 10000,
+   "notOlderThan": 7776000
+  },
+  "ohttpMetricsAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 604800,
+   "maxPageSize": 10000,
+   "notOlderThan": 7776000
+  },
+  "ohttpRelayEgressConnMetricsAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 7776000,
+   "maxPageSize": 10000,
+   "notOlderThan": 7776000
+  },
+  "ohttpRelayIngressConnMetricsAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 7776000,
+   "maxPageSize": 10000,
+   "notOlderThan": 7776000
+  },
+  "ohttpRelayRequestMetricsAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 7776000,
+   "maxPageSize": 10000,
+   "notOlderThan": 7776000
+  },
+  "pageShieldReportsAdaptiveGroups": {
+   "enabled": false,
+   "maxDuration": 604800,
+   "maxPageSize": 10000,
+   "notOlderThan": 31536000
+  },
+  "pagesFunctionsInvocationsAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 7776000
+  },
+  "pipelinesDeliveryAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 7776000
+  },
+  "pipelinesIngestionAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 7776000
+  },
+  "pipelinesOperatorAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 7776000
+  },
+  "pipelinesOperatorStagingAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 7776000
+  },
+  "pipelinesSinkAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 7776000
+  },
+  "pipelinesSinkStagingAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 7776000
+  },
+  "pipelinesUserErrorsAdaptive": {
+   "enabled": true,
+   "maxDuration": 86400,
+   "maxPageSize": 10000,
+   "notOlderThan": 7776000
+  },
+  "pipelinesUserErrorsAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 7776000
+  },
+  "pipelinesUserErrorsStagingAdaptive": {
+   "enabled": true,
+   "maxDuration": 86400,
+   "maxPageSize": 10000,
+   "notOlderThan": 7776000
+  },
+  "pipelinesUserErrorsStagingAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 7776000
+  },
+  "precursorEventsAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 608400,
+   "maxPageSize": 10000,
+   "notOlderThan": 2678400
+  },
+  "precursorSessionsAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 608400,
+   "maxPageSize": 10000,
+   "notOlderThan": 2678400
+  },
+  "privacyProxyAuthMetricsAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 7776000,
+   "maxPageSize": 10000,
+   "notOlderThan": 7776000
+  },
+  "privacyProxyEgressConnMetricsAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 7776000,
+   "maxPageSize": 10000,
+   "notOlderThan": 7776000
+  },
+  "privacyProxyIngressConnMetricsAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 7776000,
+   "maxPageSize": 10000,
+   "notOlderThan": 7776000
+  },
+  "privacyProxyRequestMetricsAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 7776000,
+   "maxPageSize": 10000,
+   "notOlderThan": 7776000
+  },
+  "programmableFlowProtectionNetworkAnalyticsAdaptiveGroups": {
+   "enabled": false,
+   "maxDuration": 604800,
+   "maxPageSize": 10000,
+   "notOlderThan": 31536000
+  },
+  "queueBacklogAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 7776000
+  },
+  "queueConsumerMetricsAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 2764800
+  },
+  "queueDelayedBacklogAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 7776000
+  },
+  "queueMessageOperationsAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 7776000
+  },
+  "r2BandwidthUsageAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 5184000
+  },
+  "r2CatalogDataOperationsAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 7776000
+  },
+  "r2CatalogTableMaintenanceAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 7776000
+  },
+  "r2OperationsAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 7776000
+  },
+  "r2StorageAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 7776000
+  },
+  "r2sqlOperationsAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 7776000
+  },
+  "realtimeKitUsageAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 5270400,
+   "maxPageSize": 10000,
+   "notOlderThan": 5270400
+  },
+  "rumPageloadEventsAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 8035200,
+   "maxPageSize": 10000,
+   "notOlderThan": 15897600
+  },
+  "rumPerformanceEventsAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 8035200,
+   "maxPageSize": 10000,
+   "notOlderThan": 15897600
+  },
+  "rumWebVitalsEventsAdaptive": {
+   "enabled": true,
+   "maxDuration": 8035200,
+   "maxPageSize": 10000,
+   "notOlderThan": 15897600
+  },
+  "rumWebVitalsEventsAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 8035200,
+   "maxPageSize": 10000,
+   "notOlderThan": 15897600
+  },
+  "shadowIt1hGroups": {
+   "enabled": true,
+   "maxDuration": 7776000,
+   "maxPageSize": 10000,
+   "notOlderThan": 31536000
+  },
+  "sinkholeRequestLogsAdaptive": {
+   "enabled": false,
+   "maxDuration": 604800,
+   "maxPageSize": 10000,
+   "notOlderThan": 31536000
+  },
+  "sinkholeRequestLogsAdaptiveGroups": {
+   "enabled": false,
+   "maxDuration": 604800,
+   "maxPageSize": 10000,
+   "notOlderThan": 31536000
+  },
+  "sippyOperationsAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 7776000
+  },
+  "spectrumNetworkAnalyticsAdaptiveGroups": {
+   "enabled": false,
+   "maxDuration": 604800,
+   "maxPageSize": 10000,
+   "notOlderThan": 31536000
+  },
+  "storageTraces": {
+   "enabled": false,
+   "maxDuration": 259200,
+   "maxPageSize": 10000,
+   "notOlderThan": 2678400
+  },
+  "streamCMCDAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2592000,
+   "maxPageSize": 10000,
+   "notOlderThan": 2678400
+  },
+  "streamMinutesViewedAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 7948800
+  },
+  "streamWHEPPlaybackMetricsAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2592000,
+   "maxPageSize": 10000,
+   "notOlderThan": 2592000
+  },
+  "streamWHIPBroadcastMetricsAdaptive": {
+   "enabled": true,
+   "maxDuration": 2592000,
+   "maxPageSize": 10000,
+   "notOlderThan": 2592000
+  },
+  "streamWHIPBroadcastMetricsAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2592000,
+   "maxPageSize": 10000,
+   "notOlderThan": 2592000
+  },
+  "toMarkdownConversionAdaptive": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 2764800
+  },
+  "toMarkdownConversionAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 2764800
+  },
+  "turnstileAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 608400,
+   "maxPageSize": 10000,
+   "notOlderThan": 2678400
+  },
+  "vectorizeQueriesAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 2764800
+  },
+  "vectorizeStorageAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 2764800
+  },
+  "vectorizeV2OperationsAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 2764800
+  },
+  "vectorizeV2QueriesAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 2764800
+  },
+  "vectorizeV2StorageAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 2764800
+  },
+  "vectorizeV2WritesAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 2764800
+  },
+  "videoBufferEventsAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 7948800
+  },
+  "videoPlaybackEventsAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 7948800
+  },
+  "videoQualityEventsAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 7948800
+  },
+  "warpDeviceAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2592000,
+   "maxPageSize": 10000,
+   "notOlderThan": 2678400
+  },
+  "webSearchRequestsAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 2764800
+  },
+  "workerPlacementAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 2764800
+  },
+  "workersAnalyticsEngineAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2678400,
+   "maxPageSize": 10000,
+   "notOlderThan": 2678400
+  },
+  "workersAssetsRequestsAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 2764800
+  },
+  "workersBuildsBuildMinutesAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 2764800
+  },
+  "workersCacheRequestsAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 7776000
+  },
+  "workersInvocationsAdaptive": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 7776000
+  },
+  "workersInvocationsByOwnerAndScriptGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 7776000
+  },
+  "workersInvocationsScheduled": {
+   "enabled": true,
+   "maxDuration": 604800,
+   "maxPageSize": 10000,
+   "notOlderThan": 7776000
+  },
+  "workersOverviewDataAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 7776000
+  },
+  "workersOverviewRequestsAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 7776000
+  },
+  "workersSubrequestsAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 7776000
+  },
+  "workersVpcConnectionAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 2764800
+  },
+  "workflowsAdaptive": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 2764800
+  },
+  "workflowsAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 2764800
+  },
+  "workflowsBlockedReasonAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 2764800
+  },
+  "workflowsQueueDepthAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 2764800
+  },
+  "workflowsQueueWaitAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 2764800
+  },
+  "zarazTrackAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2678400,
+   "maxPageSize": 10000,
+   "notOlderThan": 2678400
+  },
+  "zarazTriggersAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2678400,
+   "maxPageSize": 10000,
+   "notOlderThan": 2678400
+  },
+  "zeroTrustPrivateNetworkDiscoveryGroups": {
+   "enabled": true,
+   "maxDuration": 2592000,
+   "maxPageSize": 10000,
+   "notOlderThan": 2678400
+  }
+ },
+ "zone": {
+  "accountAbuseProtectionAdaptiveGroups": {
+   "enabled": false,
+   "maxDuration": 3283200,
+   "maxPageSize": 10000,
+   "notOlderThan": 31622400
+  },
+  "apiGatewayGraphqlQueryAnalyticsGroups": {
+   "enabled": true,
+   "maxDuration": 2592000,
+   "maxPageSize": 10000,
+   "notOlderThan": 2678400
+  },
+  "apiGatewayMatchedSessionIDsAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2592000,
+   "maxPageSize": 10000,
+   "notOlderThan": 2678400
+  },
+  "apiGatewayMatchedSessionIDsPerEndpointAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2592000,
+   "maxPageSize": 10000,
+   "notOlderThan": 2678400
+  },
+  "apiGatewayMatchedSessionIDsPerEndpointFlattenedAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2592000,
+   "maxPageSize": 10000,
+   "notOlderThan": 2678400
+  },
+  "apiRequestSequencesGroups": {
+   "enabled": true,
+   "maxDuration": 86400,
+   "maxPageSize": 10000,
+   "notOlderThan": 2764800
+  },
+  "cacheReserveOperationsAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 7776000
+  },
+  "cacheReserveRequestsAdaptiveGroups": {
+   "enabled": false,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 2764800
+  },
+  "cacheReserveStorageAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 7776000
+  },
+  "dmarcReportsAdaptive": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 2764800
+  },
+  "dmarcReportsSourcesAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 2764800
+  },
+  "dnsAnalyticsAdaptive": {
+   "enabled": true,
+   "maxDuration": 2592000,
+   "maxPageSize": 10000,
+   "notOlderThan": 2678400
+  },
+  "dnsAnalyticsAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2592000,
+   "maxPageSize": 10000,
+   "notOlderThan": 2678400
+  },
+  "emailComplaintsAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2678400,
+   "maxPageSize": 10000,
+   "notOlderThan": 2678400
+  },
+  "emailRoutingAdaptive": {
+   "enabled": true,
+   "maxDuration": 2678400,
+   "maxPageSize": 10000,
+   "notOlderThan": 2678400
+  },
+  "emailRoutingAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2678400,
+   "maxPageSize": 10000,
+   "notOlderThan": 2678400
+  },
+  "emailSendingAdaptive": {
+   "enabled": true,
+   "maxDuration": 2678400,
+   "maxPageSize": 10000,
+   "notOlderThan": 2678400
+  },
+  "emailSendingAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2678400,
+   "maxPageSize": 10000,
+   "notOlderThan": 2678400
+  },
+  "firewallEventsAdaptive": {
+   "enabled": true,
+   "maxDuration": 2592000,
+   "maxPageSize": 10000,
+   "notOlderThan": 2678400
+  },
+  "firewallEventsAdaptiveByTimeGroups": {
+   "enabled": true,
+   "maxDuration": 2592000,
+   "maxPageSize": 10000,
+   "notOlderThan": 2678400
+  },
+  "firewallEventsAdaptiveGroups": {
+   "enabled": false,
+   "maxDuration": 0,
+   "maxPageSize": 10000,
+   "notOlderThan": 0
+  },
+  "healthCheckEventsAdaptive": {
+   "enabled": false,
+   "maxDuration": 0,
+   "maxPageSize": 10000,
+   "notOlderThan": 0
+  },
+  "healthCheckEventsAdaptiveGroups": {
+   "enabled": false,
+   "maxDuration": 0,
+   "maxPageSize": 10000,
+   "notOlderThan": 0
+  },
+  "httpRequests1dByColoGroups": {
+   "enabled": false,
+   "maxDuration": 0,
+   "maxPageSize": 10000,
+   "notOlderThan": 0
+  },
+  "httpRequests1dGroups": {
+   "enabled": true,
+   "maxDuration": 31539600,
+   "maxPageSize": 10000,
+   "notOlderThan": 31539600
+  },
+  "httpRequests1hGroups": {
+   "enabled": true,
+   "maxDuration": 259200,
+   "maxPageSize": 10000,
+   "notOlderThan": 262800
+  },
+  "httpRequests1mByColoGroups": {
+   "enabled": false,
+   "maxDuration": 0,
+   "maxPageSize": 10000,
+   "notOlderThan": 0
+  },
+  "httpRequests1mGroups": {
+   "enabled": false,
+   "maxDuration": 0,
+   "maxPageSize": 10000,
+   "notOlderThan": 0
+  },
+  "httpRequestsAdaptive": {
+   "enabled": true,
+   "maxDuration": 2592000,
+   "maxPageSize": 10000,
+   "notOlderThan": 2678400
+  },
+  "httpRequestsAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2592000,
+   "maxPageSize": 10000,
+   "notOlderThan": 2678400
+  },
+  "httpRequestsOverviewAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 2764800
+  },
+  "imageResizingRequests1mGroups": {
+   "enabled": true,
+   "maxDuration": 2595600,
+   "maxPageSize": 10000,
+   "notOlderThan": 31536000
+  },
+  "loadBalancingRequestsAdaptive": {
+   "enabled": false,
+   "maxDuration": 604800,
+   "maxPageSize": 10000,
+   "notOlderThan": 31536000
+  },
+  "loadBalancingRequestsAdaptiveGroups": {
+   "enabled": false,
+   "maxDuration": 604800,
+   "maxPageSize": 10000,
+   "notOlderThan": 31536000
+  },
+  "logpushHealthAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 86400,
+   "maxPageSize": 10000,
+   "notOlderThan": 90000
+  },
+  "logpushTransformersAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 86400,
+   "maxPageSize": 10000,
+   "notOlderThan": 90000
+  },
+  "markdownForAgentsAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 604800,
+   "maxPageSize": 1000,
+   "notOlderThan": 604800
+  },
+  "nelReportsAdaptiveGroups": {
+   "enabled": false,
+   "maxDuration": 604800,
+   "maxPageSize": 10000,
+   "notOlderThan": 31536000
+  },
+  "ohttpGatewayMetricsAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 604800,
+   "maxPageSize": 10000,
+   "notOlderThan": 2592000
+  },
+  "pageShieldReportsAdaptiveGroups": {
+   "enabled": false,
+   "maxDuration": 0,
+   "maxPageSize": 10000,
+   "notOlderThan": 0
+  },
+  "preRenderBotRequestsAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 2764800
+  },
+  "preRenderRenderAttemptsAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 2764800
+  },
+  "precursorSessionsGroups": {
+   "enabled": true,
+   "maxDuration": 608400,
+   "maxPageSize": 10080,
+   "notOlderThan": 31536000
+  },
+  "userProfilesAdaptiveGroups": {
+   "enabled": false,
+   "maxDuration": 31622400,
+   "maxPageSize": 10000,
+   "notOlderThan": 31622400
+  },
+  "userProfilesPiiGroups": {
+   "enabled": false,
+   "maxDuration": 15897600,
+   "maxPageSize": 10000,
+   "notOlderThan": 31536000
+  },
+  "userProfilesRawEventsGroups": {
+   "enabled": false,
+   "maxDuration": 2764800,
+   "maxPageSize": 10000,
+   "notOlderThan": 31536000
+  },
+  "waitingRoomAnalyticsAdaptive": {
+   "enabled": false,
+   "maxDuration": 0,
+   "maxPageSize": 10000,
+   "notOlderThan": 0
+  },
+  "waitingRoomAnalyticsAdaptiveGroups": {
+   "enabled": false,
+   "maxDuration": 0,
+   "maxPageSize": 10000,
+   "notOlderThan": 0
+  },
+  "workersZoneInvocationsAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2880000,
+   "maxPageSize": 10000,
+   "notOlderThan": 2880000
+  },
+  "workersZoneSubrequestsAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2880000,
+   "maxPageSize": 10000,
+   "notOlderThan": 2880000
+  },
+  "zarazActionsAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2678400,
+   "maxPageSize": 10000,
+   "notOlderThan": 2678400
+  },
+  "zarazAnalyticsIdentitiesAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2678400,
+   "maxPageSize": 10000,
+   "notOlderThan": 2678400
+  },
+  "zarazAnalyticsOrderedTrackAdaptive": {
+   "enabled": true,
+   "maxDuration": 2678400,
+   "maxPageSize": 10000,
+   "notOlderThan": 2678400
+  },
+  "zarazAnalyticsOrderedTrackAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2678400,
+   "maxPageSize": 10000,
+   "notOlderThan": 2678400
+  },
+  "zarazAnalyticsTrackAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2678400,
+   "maxPageSize": 10000,
+   "notOlderThan": 2678400
+  },
+  "zarazAnalyticsTrackTrafficSourcesAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2678400,
+   "maxPageSize": 10000,
+   "notOlderThan": 2678400
+  },
+  "zarazAnalyticsTriggersAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2678400,
+   "maxPageSize": 10000,
+   "notOlderThan": 2678400
+  },
+  "zarazAnalyticsTriggersTrafficSourcesAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2678400,
+   "maxPageSize": 10000,
+   "notOlderThan": 2678400
+  },
+  "zarazFetchAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2678400,
+   "maxPageSize": 10000,
+   "notOlderThan": 2678400
+  },
+  "zarazTrackAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2678400,
+   "maxPageSize": 10000,
+   "notOlderThan": 2678400
+  },
+  "zarazTriggersAdaptiveGroups": {
+   "enabled": true,
+   "maxDuration": 2678400,
+   "maxPageSize": 10000,
+   "notOlderThan": 2678400
+  }
+ }
+}

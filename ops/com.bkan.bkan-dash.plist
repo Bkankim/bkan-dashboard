@@ -8,7 +8,7 @@
   <key>ProgramArguments</key>
   <array>
     <string>/Users/you/.local/bin/with-secret</string>
-    <string>cloudflare-analytics-read-token=CF_API_TOKEN</string>
+    <string>cloudflare-read-all-token=CF_API_TOKEN</string>
     <string>env-cloudflare-account-id=CF_ACCOUNT_ID</string>
     <string>--</string>
     <string>/Users/you/Library/pnpm/bin/pnpm</string>

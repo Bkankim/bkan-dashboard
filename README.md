@@ -4,7 +4,7 @@
 
 ## 페이지
 - `/` 포털: 제목과 진입 카드만. 카드 목록은 `portal.local.json`(gitignore - 실제 테일넷 주소)에서 요청마다 읽고, 없으면 `portal.example.json`을 보여 준다. JSON만 고치면 다시 빌드하지 않아도 바뀐다.
-- `/cloudflare`: Cloudflare API로 받을 수 있는 사이트 데이터 전부를 모으는 페이지. 지금은 와이어프레임(가짜 값)이고 칸은 Web Analytics 데이터셋 3개 몫이다.
+- `/cloudflare`: Cloudflare API로 받을 수 있는 사이트 데이터 전부(실데이터). 방문(Web Analytics) · 엣지 트래픽 · 365일 추이 · 요청 기록 · 보안 · DNS · 플랫폼(Pages·Functions·Workers·R2·감사 로그) · 도메인·계정 · 인터넷(Radar). `?range=30m|24h|7d|30d&host=<사이트>`. 무엇이 있고 무엇이 플랜에 막혔는지는 `docs/research/cloudflare-data.md`.
 
 카드를 더하려면 `portal.local.json`의 `entries`에 `{name, description, href}`를 넣는다. 공개 리포에는 실제 주소를 커밋하지 않는다(예시 파일만).
 
@@ -15,7 +15,7 @@ pnpm dev            # http://localhost:3000
 ```
 데이터를 붙인 뒤에는 토큰을 서버에만 넣어 띄운다(값을 셸·파일에 펼치지 않는다):
 ```sh
-with-secret cloudflare-analytics-read-token=CF_API_TOKEN env-cloudflare-account-id=CF_ACCOUNT_ID -- pnpm dev
+with-secret cloudflare-read-all-token=CF_API_TOKEN env-cloudflare-account-id=CF_ACCOUNT_ID -- pnpm dev
 ```
 
 ## 상시 실행 (맥 + 다른 PC에서 보기)
@@ -28,7 +28,8 @@ with-secret cloudflare-analytics-read-token=CF_API_TOKEN env-cloudflare-account-
 
 ## 데이터
 Cloudflare GraphQL Analytics API(`https://api.cloudflare.com/client/v4/graphql`), account 범위.
-토큰 권한은 Account Analytics: Read 하나(`~/.secrets/cloudflare-analytics-read-token.txt`, INDEX 등록).
+토큰은 읽기 전용 `bkan-dashboard-read-all`(Read 권한 182개, API 토큰·결제·시크릿 저장소 제외, INDEX 이름 `cloudflare-read-all-token`). 쓰는 것만 남기고 좁힐 예정이다.
+- 값은 60초 캐시(`use cache` + `cacheLife`). 첫 요청은 질의가 많아 10초 남짓 걸린다.
 
 | 데이터셋 | 숫자 | 나눠 보는 기준 |
 |---|---|---|
