@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "bkan dashboard",
-  description: "bkan.dev · portfolio · blog · lab 방문자 대시보드 (로컬 전용)",
+  title: { default: "bkan dashboard", template: "%s · bkan dashboard" },
+  description: "내가 운영하고 쓰는 도구들의 진입점 (로컬·테일넷 전용)",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

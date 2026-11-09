@@ -1,0 +1,25 @@
+{
+  "_comment": "포털 진입점 예시. 실제 주소는 같은 형식으로 portal.local.json(gitignore)에 둔다. href가 /로 시작하면 이 대시보드 안 페이지다.",
+  "entries": [
+    {
+      "name": "Cloudflare",
+      "description": "Cloudflare API로 받을 수 있는 사이트 데이터 전부 (방문·성능·Web Vitals ...)",
+      "href": "/cloudflare"
+    },
+    {
+      "name": "cct dashboard",
+      "description": "Claude Code 계정 지갑 · 사용량",
+      "href": "http://your-mac:18790"
+    },
+    {
+      "name": "ocx",
+      "description": "OpenCodex 프록시 대시보드",
+      "href": "http://your-mac:11102"
+    },
+    {
+      "name": "hindsight web",
+      "description": "Hindsight Control Plane · 메모리 뱅크",
+      "href": "http://your-mac:19999"
+    }
+  ]
+}

@@ -39,3 +39,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# 포털 실제 주소(테일넷 호스트·포트) - 공개 리포에 올리지 않는다
+portal.local.json

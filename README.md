@@ -1,7 +1,12 @@
 # bkan dashboard
 
-bkan.dev·portfolio.bkan.dev·blog.bkan.dev·lab.bkan.dev 방문자 통계를 보는 로컬 전용 대시보드.
-지금은 와이어프레임(메인 페이지, 가짜 값)까지다.
+내가 운영하고 쓰는 도구들의 진입점(운영 포털). 맥에서 돌고 테일넷으로만 연다.
+
+## 페이지
+- `/` 포털: 제목과 진입 카드만. 카드 목록은 `portal.local.json`(gitignore - 실제 테일넷 주소)에서 요청마다 읽고, 없으면 `portal.example.json`을 보여 준다. JSON만 고치면 다시 빌드하지 않아도 바뀐다.
+- `/cloudflare`: Cloudflare API로 받을 수 있는 사이트 데이터 전부를 모으는 페이지. 지금은 와이어프레임(가짜 값)이고 칸은 Web Analytics 데이터셋 3개 몫이다.
+
+카드를 더하려면 `portal.local.json`의 `entries`에 `{name, description, href}`를 넣는다. 공개 리포에는 실제 주소를 커밋하지 않는다(예시 파일만).
 
 ## 실행
 ```sh
