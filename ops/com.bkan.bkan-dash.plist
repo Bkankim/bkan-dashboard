@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <!-- bkan dashboard 서버. 127.0.0.1:8791 에만 바인드하고, 테일넷 노출은 tailscale serve --http=18791 이 맡는다.
+       토큰은 with-secret 이 INDEX 정본에서 이 프로세스에만 넣는다(값은 plist·로그에 없음). -->
+  <key>Label</key><string>com.bkan.bkan-dash</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/Users/you/.local/bin/with-secret</string>
+    <string>cloudflare-analytics-read-token=CF_API_TOKEN</string>
+    <string>env-cloudflare-account-id=CF_ACCOUNT_ID</string>
+    <string>--</string>
+    <string>/Users/you/Library/pnpm/bin/pnpm</string>
+    <string>start</string>
+    <string>-H</string><string>127.0.0.1</string>
+    <string>-p</string><string>8791</string>
+  </array>
+  <key>WorkingDirectory</key><string>/Users/you/workspace/bkan-dashboard</string>
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>PATH</key><string>/Users/you/Library/pnpm/bin:/opt/homebrew/bin:/usr/bin:/bin</string>
+    <key>HOME</key><string>/Users/you</string>
+    <key>NODE_ENV</key><string>production</string>
+  </dict>
+  <key>RunAtLoad</key><true/>
+  <key>KeepAlive</key><true/>
+  <key>StandardOutPath</key><string>/Users/you/Library/Logs/bkan-dash.log</string>
+  <key>StandardErrorPath</key><string>/Users/you/Library/Logs/bkan-dash.log</string>
+</dict>
+</plist>

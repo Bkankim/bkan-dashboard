@@ -13,6 +13,14 @@ pnpm dev            # http://localhost:3000
 with-secret cloudflare-analytics-read-token=CF_API_TOKEN env-cloudflare-account-id=CF_ACCOUNT_ID -- pnpm dev
 ```
 
+## 상시 실행 (맥 + 다른 PC에서 보기)
+- 맥 launchd `com.bkan.bkan-dash`가 `pnpm start`를 `127.0.0.1:8791`에 띄운다(KeepAlive, 로그 `~/Library/Logs/bkan-dash.log`). 정의는 `ops/com.bkan.bkan-dash.plist`.
+- 토큰은 plist에 없다. `with-secret`이 실행할 때 이 프로세스에만 넣는다.
+- 테일넷 노출: `tailscale serve --bg --http=18791 http://127.0.0.1:8791` → 다른 PC에서 `http://my-mac:18791`. https 포트는 11-08 DNS 설정 이후 다른 PC에서 막혀 cct(18790)와 같은 http 방식을 쓴다.
+- 고친 뒤 반영: `pnpm build && launchctl kickstart -k gui/501/com.bkan.bkan-dash`.
+- 설치: `cp ops/com.bkan.bkan-dash.plist ~/Library/LaunchAgents/ && launchctl bootstrap gui/501 ~/Library/LaunchAgents/com.bkan.bkan-dash.plist`.
+- 해제: `launchctl bootout gui/501/com.bkan.bkan-dash && tailscale serve --http=18791 off`.
+
 ## 데이터
 Cloudflare GraphQL Analytics API(`https://api.cloudflare.com/client/v4/graphql`), account 범위.
 토큰 권한은 Account Analytics: Read 하나(`~/.secrets/cloudflare-analytics-read-token.txt`, INDEX 등록).
