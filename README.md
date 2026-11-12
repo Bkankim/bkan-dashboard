@@ -27,9 +27,10 @@ with-secret cloudflare-read-all-token=CF_API_TOKEN env-cloudflare-account-id=CF_
 - 해제: `launchctl bootout gui/501/com.bkan.bkan-dash && tailscale serve --http=18791 off`.
 
 ## 데이터
-Cloudflare GraphQL Analytics API(`https://api.cloudflare.com/client/v4/graphql`), account 범위.
-토큰은 읽기 전용 `bkan-dashboard-read-all`(Read 권한 182개, API 토큰·결제·시크릿 저장소 제외, INDEX 이름 `cloudflare-read-all-token`). 쓰는 것만 남기고 좁힐 예정이다.
-- 값은 60초 캐시(`use cache` + `cacheLife`). 첫 요청은 질의가 많아 10초 남짓 걸린다.
+Cloudflare GraphQL Analytics API(`https://api.cloudflare.com/client/v4/graphql`)의 account·zone 범위와 REST API(DNS·Pages·R2·감사 로그·Radar 등, `src/lib/cf/queries.ts`).
+토큰은 읽기 전용 `bkan-dashboard-read-all`(Read 권한 182개, API 토큰·결제·시크릿 저장소 제외, INDEX 이름 `cloudflare-read-all-token`). 좁히는 일은 "한계와 다음"에 있다.
+- 값은 60초마다 새로 받고, 하루 동안은 낡은 값을 먼저 보여 준다(`use cache` + `cacheLife`). 빈 캐시에서 7일 범위 첫 요청은 2초 안팎이다(2026-11-10 측정).
+- `CF_TIMING=1`을 주고 띄우면 호출마다 걸린 시간·크기·이벤트 루프 지연이 로그에 `[cf-timing]`으로 남는다.
 
 | 데이터셋 | 숫자 | 나눠 보는 기준 |
 |---|---|---|
@@ -44,3 +45,24 @@ Cloudflare GraphQL Analytics API(`https://api.cloudflare.com/client/v4/graphql`)
 
 ## 화면 규칙 (와이어프레임)
 흰 바탕, 검은 선만. 색 대신 빗금·점선으로 구분한다. 칸마다 작은 글씨로 쓸 API 필드를 적어 두었다(`src/app/page.tsx`).
+
+## 구조
+Next.js 16 App Router 하나다. `cacheComponents`가 켜져 있어 제목은 빌드 때 그리고, 데이터는 요청 때 받아 `Suspense` 뒤에서 채운다.
+- `src/lib/portal.ts`: 포털 카드 목록을 요청마다 파일에서 읽는다(`connection()`).
+- `src/lib/cf/client.ts`: Cloudflare 호출 한 곳. 서버 전용(`server-only`)이고 토큰은 환경 변수 `CF_API_TOKEN`·`CF_ACCOUNT_ID`에서만 읽는다.
+- `src/lib/cf/queries.ts`: 섹션별 질의와 캐시 수명. `src/app/cloudflare/`의 섹션 컴포넌트가 이걸 부르고, `src/components/viz.tsx`의 상자·표·차트로 그린다.
+- `ops/`: 맥 launchd 정의("상시 실행"). `docs/research/`: Cloudflare API로 무엇을 받을 수 있는지 조사한 원자료와 정리.
+
+## 상태
+2026-11-13 기준 맥 launchd로 상시 실행 중이다(`launchctl print`로 running 확인).<br>
+2026-11-10에 정한 다음 순서: `/cloudflare`에서 뺄 섹션·칸을 고르고, 그에 맞춰 토큰 권한을 좁히고, 꾸미기는 그 뒤에 한다.
+
+## 결정과 절충
+- **Cloudflare 호출은 Next가 바꿔 끼운 전역 `fetch` 대신 `node:https`로 한다(2026-11-10).** 같은 동시 호출이 순수 Node fetch로 1.1초, Next fetch로 5~6초였다(응답이 서로 줄을 섬). 캐시는 `use cache`가 맡으니 Next fetch의 캐시 기능은 포기했다.
+- **GraphQL 별칭은 6개씩 나눠 병렬로 보낸다(2026-11-10).** 21개를 한 질의에 묶으면 Cloudflare가 차례로 처리해 4초 걸렸다. 대신 호출 수가 늘어 한도(5분 300회)에 그만큼 가까워진다.
+- **실제 테일넷 주소는 리포에 두지 않는다.** 공개 리포라서 `portal.local.json`(gitignore)에만 두고, 없으면 `portal.example.json`을 보여 준다. 새 장비에서는 예시 카드가 먼저 보인다.
+
+## 한계와 다음
+- 테일넷 안에서만 열린다. 맥이 꺼지면 같이 멈춘다.
+- 토큰 `bkan-dashboard-read-all`은 Read 권한 182개로 넓다. `/cloudflare`에 남길 섹션을 정한 뒤 쓰는 권한만 남긴다.
+- `pnpm build`가 `src/lib/portal.ts`의 `path.join(process.cwd(), ...)` 때문에 리포 전체를 서버 파일로 추적한다는 경고를 낸다(2026-11-13 확인). 빌드는 통과한다.
